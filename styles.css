@@ -1,0 +1,38 @@
+body{
+    margin: 0px;
+}
+
+main{
+    margin: 20px;
+}
+
+img.logo{
+    width: 100%;
+    height: auto;
+    display: block;
+}
+
+.navbar ul{
+    list-style-type: none;
+    background-color: red;
+    padding: 0px;
+    margin: 0px;
+    overflow: hidden;
+}
+
+.navbar a{
+    color: white;
+    text-decoration: none;
+    padding: 15px;
+    display: block;
+    text-align: center;
+}
+
+.navbar a:hover{
+    background: orangered;
+}
+
+.navbar li{
+    float: left;
+
+}
