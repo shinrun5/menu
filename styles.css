@@ -13,11 +13,13 @@ img.logo{
 }
 
 .navbar ul{
+    display: flex;
     list-style-type: none;
     background-color: red;
     padding: 0px;
     margin: 0px;
     overflow: hidden;
+    justify-content: space-around;
 }
 
 .navbar a{
