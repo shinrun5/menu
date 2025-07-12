@@ -143,6 +143,22 @@
         "name": "Scallion Pancake",
         "price": 6.25,
         "cat": "App"
+    },
+    {
+        "num": "1",
+        "name": "Wonton Soup",
+        "sizes": [
+            {
+                "size": "Small",
+                "price": 3.25
+            },
+            {
+                "size": "Large",
+                "price": 4.50
+            }
+        ],
+        "cat": "App",
+        "subcat" : "Soup"
     }
 
 
