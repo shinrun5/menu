@@ -144,22 +144,204 @@
         "price": 6.25,
         "cat": "App"
     },
+
+
+
     {
         "num": "1",
         "name": "Wonton Soup",
         "sizes": [
             {
-                "size": "Small",
+                "size": "Pint",
                 "price": 3.25
             },
             {
-                "size": "Large",
+                "size": "Quart",
                 "price": 4.50
             }
         ],
         "cat": "App",
-        "subcat" : "Soup"
+        "subcat": "Soup"
+    },
+    {
+        "num": "2",
+        "name": "Egg Drop Soup",
+        "sizes": [
+            {
+                "size": "Pint",
+                "price": 3.25
+            },
+            {
+                "size": "Quart",
+                "price": 4.50
+            }
+        ],
+        "cat": "App",
+        "subcat": "Soup"
+    },
+    {
+        "num": "3",
+        "name": "Chicken Noodle or Rice Soup",
+        "price": 5.30,
+        "cat": "App",
+        "subcat": "Soup"
+    },
+    {
+        "num": "4",
+        "name": "Pork or Chicken Yat Gaw Mein Soup",
+        "price": 5.30,
+        "cat": "App",
+        "subcat": "Soup"
+    },
+    {
+        "num": "5",
+        "name": "Wonton Egg Drop Soup",
+        "sizes": [
+            {
+                "size": "Pint",
+                "price": 3.95
+            },
+            {
+                "size": "Quart",
+                "price": 5.25
+            }
+        ],
+        "cat": "App",
+        "subcat": "Soup"
+    },
+    {
+        "num": "6",
+        "name": "Hot and Sour Soup",
+        "sizes": [
+            {
+                "size": "Pint",
+                "price": 3.95
+            },
+            {
+                "size": "Quart",
+                "price": 5.25
+            }
+        ],
+        "cat": "App",
+        "subcat": "Soup"
+    },
+    {
+        "num": "7",
+        "name": "Mixed Vegetables with Tofu Soup",
+        "price": 5.25,
+        "cat": "App",
+        "subcat": "Soup"
+    },
+    {
+        "num": "8",
+        "name": "Subgum Wonton Soup",
+        "price": 6.75,
+        "cat": "App",
+        "subcat": "Soup"
+    },
+    {
+        "num": "9",
+        "name": "Seafood Soup",
+        "price": 7.30,
+        "cat": "App",
+        "subcat": "Soup"
+    },
+    {
+        "num": "10",
+        "name": "Chicken or Shrimp Mei Fun Soup",
+        "price": 6.25,
+        "cat": "App",
+        "subcat": "Soup"
+    },
+
+
+
+    {
+        "cat": "R&N",
+        "type": [
+            {
+                "num": "11",
+                "name": "Vegetable Fried Rice", 
+                "sizes": [
+                    {
+                        "size": "Small",
+                        "price": 6.50
+                    },
+                    {
+                        "size": "Large",
+                        "price": 9.50
+                    }
+                ]
+            },
+            {
+                "num": "12",
+                "name": "Pork or Chicken Fried Rice", 
+                "sizes": [
+                    {
+                        "size": "Small",
+                        "price": 6.50
+                    },
+                    {
+                        "size": "Large",
+                        "price": 9.50
+                    }
+                ]
+            },
+            {
+                "num": "13",
+                "name": "Beef or Shrimp Fried Rice", 
+                "sizes": [
+                    {
+                        "size": "Small",
+                        "price": 6.75
+                    },
+                    {
+                        "size": "Large",
+                        "price": 9.50
+                    }
+                ]
+            },
+            {
+                "num": "14",
+                "name": "Young Chow Fried Rice",
+                "description": "Cooked with White Rice",
+                "sizes": [
+                    {
+                        "size": "Large",
+                        "price": 10.50
+                    }
+                ]
+            },
+            {
+                "num": "15",
+                "name": "Lobster Fried Rice",
+                "sizes": [
+                    {
+                        "size": "Large",
+                        "price": 10.50
+                    }
+                ]
+            },
+            {
+                "num": "16",
+                "name": "House Special Fried Rice", 
+                "sizes": [
+                    {
+                        "size": "Small",
+                        "price": 6.75
+                    },
+                    {
+                        "size": "Large",
+                        "price": 10.50
+                    }
+                ]
+            }
+        ]
     }
+
+
+
+
 
 
 ]
