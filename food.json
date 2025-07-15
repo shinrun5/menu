@@ -258,6 +258,7 @@
 
     {
         "cat": "R&N",
+        "subcat": "Rice",
         "type": [
             {
                 "num": "11",
@@ -337,7 +338,273 @@
                 ]
             }
         ]
+    },
+    {
+        "cat": "R&N",
+        "subcat": "Noodle",
+        "type": [
+            {
+                "num": "17",
+                "name": "Vegetable Lo Mein", 
+                "sizes": [
+                    {
+                        "size": "Small",
+                        "price": 6.75
+                    },
+                    {
+                        "size": "Large",
+                        "price": 9.50
+                    }
+                ]
+            },
+            {
+                "num": "18",
+                "name": "Pork Lo Mein", 
+                "sizes": [
+                    {
+                        "size": "Small",
+                        "price": 6.75
+                    },
+                    {
+                        "size": "Large",
+                        "price": 9.50
+                    }
+                ]
+            },
+            {
+                "num": "19",
+                "name": "Chicken Lo Mein", 
+                "sizes": [
+                    {
+                        "size": "Small",
+                        "price": 6.75
+                    },
+                    {
+                        "size": "Large",
+                        "price": 9.50
+                    }
+                ]
+            },
+            {
+                "num": "20",
+                "name": "Beef Lo Mein", 
+                "sizes": [
+                    {
+                        "size": "Small",
+                        "price": 6.75
+                    },
+                    {
+                        "size": "Large",
+                        "price": 10.50
+                    }
+                ]
+            },
+            {
+                "num": "21",
+                "name": "Shrimp Lo Mein", 
+                "sizes": [
+                    {
+                        "size": "Small",
+                        "price": 6.75
+                    },
+                    {
+                        "size": "Large",
+                        "price": 10.50
+                    }
+                ]
+            },
+            {
+                "num": "22",
+                "name": "Lobster Lo Mein",
+                "sizes": [
+                    {
+                        "size": "Large",
+                        "price": 11.50
+                    }
+                ]
+            },
+            {
+                "num": "23",
+                "name": "House Special Fried Rice", 
+                "sizes": [
+                    {
+                        "size": "Large",
+                        "price": 11.50
+                    }
+                ]
+            }
+        ]
+    },
+
+
+
+    {
+        "num": "31",
+        "name": "Sweet and Sour Chicken",
+        "cat": "Entree",
+        "subcat": "Chicken",
+        "sizes": [
+            {
+                "size": "Small",
+                "price": 7.95
+            },
+            {
+                "size": "Large",
+                "price": 11.35
+            }
+        ]
+    },
+    {
+        "cat": "Entree",
+        "subcat": "Chicken",
+        "sizes": [
+            {
+                "size": "Small",
+                "price": 8.50
+            },
+            {
+                "size": "Large",
+                "price": 11.75
+            }
+        ],
+        "dishes": [
+            {
+                "num": "33",
+                "name": "Chicken with Broccoli"
+            },
+            {
+                "num": "34",
+                "name": "Chicken with Mixed Vegetables"
+            },
+            {
+                "num": "35",
+                "name": "Moo Goo Gai Pan"
+            },
+            {
+                "num": "36",
+                "name": "Chicken with Snow Pea"
+            },
+            {
+                "num": "37",
+                "name": "Chicken with Pepper and Tomato"
+            },
+            {
+                "num": "38",
+                "name": "Chicken with Black Bean Sauce"
+            },
+            {
+                "num": "39",
+                "name": "Chicken with Mushrooms"
+            },
+            {
+                "num": "40",
+                "name": "Chicken with Cashew Nuts"
+            },
+            {
+                "num": "41",
+                "name": "Chicken with Onion and Curry Sauce"
+            },
+            {
+                "num": "42",
+                "name": "Kung Pao Chicken with Peanuts"
+            },
+            {
+                "num": "43",
+                "name": "Chicken with Eggplant"
+            },
+            {
+                "num": "44",
+                "name": "Szechuan Chicken"
+            },
+            {
+                "num": "45",
+                "name": "Chicken with Garlic Sauce"
+            },
+            {
+                "num": "46",
+                "name": "Hunan Chicken"
+            },
+            {
+                "num": "47",
+                "name": "Hot and Spicy Chicken"
+            }
+        ]
+    },
+
+
+    {
+        "cat": "Entree",
+        "subcat": "Beef",
+        "sizes": [
+            {
+                "size": "Small",
+                "price": 8.50
+            },
+            {
+                "size": "Large",
+                "price": 11.75
+            }
+        ],
+        "dishes": [
+            {
+                "num": "48",
+                "name": "Beef with Broccoli"
+            },
+            {
+                "num": "49",
+                "name": "Beef with Mixed Vegetables"
+            },
+            {
+                "num": "50",
+                "name": "Pepper Steak with Onion"
+            },
+            {
+                "num": "51",
+                "name": "Beef with Pepper and Tomato"
+            },
+            {
+                "num": "52",
+                "name": "Beef with Mushrooms"
+            },
+            {
+                "num": "53",
+                "name": "Beef with Oyster Sauce"
+            },
+            {
+                "num": "54",
+                "name": "Beef with Snow Pea"
+            },
+            {
+                "num": "55",
+                "name": "Beef with Black Bean Sauce"
+            },
+            {
+                "num": "56",
+                "name": "Beef with Curry Sauce"
+            },
+            {
+                "num": "57",
+                "name": "Beef with Eggplant"
+            },
+            {
+                "num": "58",
+                "name": "Szechuan Beef"
+            },
+            {
+                "num": "59",
+                "name": "Beef with Garlic Sauce"
+            },
+            {
+                "num": "60",
+                "name": "Hunan Beef"
+            },
+            {
+                "num": "61",
+                "name": "Hot and Spicy Beef"
+            }
+        ]
     }
+
 
 
 
