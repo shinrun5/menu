@@ -603,11 +603,285 @@
                 "name": "Hot and Spicy Beef"
             }
         ]
+    },
+
+
+    {
+        "cat": "Entree",
+        "subcat": "Shrimp",
+        "sizes": [
+            {
+                "size": "Small",
+                "price": 8.50
+            },
+            {
+                "size": "Large",
+                "price": 12.95
+            }
+        ],
+        "dishes": [
+            {
+                "num": "62",
+                "name": "Shrimp with Broccoli"
+            },
+            {
+                "num": "64",
+                "name": "Shrimp with Lobster Sauce"
+            },
+            {
+                "num": "65",
+                "name": "Shrimp with Mixed Vegetables"
+            },
+            {
+                "num": "66",
+                "name": "Shrimp with Pepper and Tomato"
+            },
+            {
+                "num": "67",
+                "name": "Shrimp with Onion and Curry Sauce"
+            },
+            {
+                "num": "68",
+                "name": "Shrimp with Snow Pea"
+            },
+            {
+                "num": "69",
+                "name": "Shrimp with Black Bean Sauce"
+            },
+            {
+                "num": "70",
+                "name": "Shrimp with Cashew Nuts"
+            },
+            {
+                "num": "71",
+                "name": "Szechuan Shrimp"
+            },
+            {
+                "num": "72",
+                "name": "Shrimp with Garlic Sauce"
+            },
+            {
+                "num": "73",
+                "name": "Hunan Shrimp"
+            },
+            {
+                "num": "74",
+                "name": "Hot and Spicy Shrimp"
+            }
+        ]
+    },
+
+
+    {
+        "cat": "Entree",
+        "subcat": "Pork",
+        "sizes": [
+            {
+                "size": "Small",
+                "price": 8.50
+            },
+            {
+                "size": "Large",
+                "price": 11.75
+            }
+        ],
+        "dishes": [
+            {
+                "num": "78",
+                "name": "Roast Pork with Broccoli"
+            },
+            {
+                "num": "79",
+                "name": "Roast Pork with Mixed Vegetables"
+            },
+            {
+                "num": "80",
+                "name": "Roast Pork with Mushrooms"
+            },
+            {
+                "num": "81",
+                "name": "Roast Pork with Black Bean Sauce"
+            },
+            {
+                "num": "82",
+                "name": "Szechuan Roast Pork"
+            },
+            {
+                "num": "83",
+                "name": "Hunan Roast Pork"
+            },
+            {
+                "num": "84",
+                "name": "Roast Prok w. Garlic Sauce"
+            }
+        ]
+    },
+
+
+    {
+        "cat": "Entree",
+        "subcat": "Egg Foo Young",
+        "price": 10.95,
+        "dishes": [
+            {
+                "num": "85",
+                "name": "Roast Pork or Chicken Egg Foo Young"
+            },
+            {
+                "num": "86",
+                "name": "Shrimp or Beef Foo Young"
+            },
+            {
+                "num": "87",
+                "name": "Vegetables or Mushroom Foo Young"
+            },
+            {
+                "num": "88",
+                "name": "House Special Egg Foo Young"
+            }
+        ]
+    },
+
+
+    {
+        "cat": "Entree",
+        "subcat": "Fun",
+        "dishes": [
+            {
+                "num": "89",
+                "name": "Vegetable Chow Fun or Mei Fun",
+                "price": 10.50
+            },
+            {
+                "num": "90",
+                "name": "Roast Pork Chow Fun or Mei Fun",
+                "price": 10.50
+            },
+            {
+                "num": "91",
+                "name": "Chicken Chow Fun or Mei Fun",
+                "price": 10.50
+            },
+            {
+                "num": "92",
+                "name": "Beef Chow Fun or Mei Fun",
+                "price": 11.50
+            },
+            {
+                "num": "93",
+                "name": "Shrimp Chow Fun or Mei Fun",
+                "price": 11.50
+            },
+            {
+                "num": "94",
+                "name": "House Special Chow Fun or Mei Fun",
+                "price": 11.50
+            },
+            {
+                "num": "95",
+                "name": "Singapore Mei Fun",
+                "price": 11.50
+            }
+        ]
+    },
+
+
+    {
+        "cat": "Entree",
+        "subcat": "Moo Shu",
+        "price": 11.25,
+        "dishes": [
+            {
+                "num": "96",
+                "name": "Moo Shu Vegetables"
+            },
+            {
+                "num": "97",
+                "name": "Moo Shu Pork or Chicken"
+            },
+            {
+                "num": "98",
+                "name": "Moo Shu Shrimp"
+            }
+        ]
+    },
+
+
+    {
+        "cat": "Veg",
+        "price": 10.75,
+        "dishes": [
+            {
+                "num": "99",
+                "name": "House Special Bean Curd"
+            },
+            {
+                "num": "100",
+                "name": "Mixed Vegetable"
+            },
+            {
+                "num": "101",
+                "name": "Broccoli with Bean Curd"
+            },
+            {
+                "num": "102",
+                "name": "Broccoli with Mushroom"
+            },
+            {
+                "num": "103",
+                "name": "String Bean with Black Bean Sauce"
+            },
+            {
+                "num": "104",
+                "name": "Broccoli with Garlic Sauce"
+            },
+            {
+                "num": "105",
+                "name": "Szechuan Bean Curd"
+            },
+            {
+                "num": "106",
+                "name": "Eggplant with Garlic Sauce"
+            },
+            {
+                "num": "107",
+                "name": "General Tso's Bean Curd"
+            }
+        ]
+    },
+
+
+
+    {
+        "cat": "Veg",
+        "dishes": [
+            {
+                "num": "H1",
+                "name": "Steamed Mixed Vegtables",
+                "price": 11.25
+            },
+            {
+                "num": "H2",
+                "name": "Steamed Bean Curd with Mixed Vegetables",
+                "price": 11.25
+            },
+            {
+                "num": "H3",
+                "name": "Steamed Chicken with Mixed Veegtables",
+                "price": 13.50
+            },
+            {
+                "num": "H4",
+                "name": "Steamed Shrimp with Mixed Veegtables",
+                "price": 13.50
+            },
+            {
+                "num": "H5",
+                "name": "Steamed Shrimp or Chicken with Snow Peas",
+                "price": 15.95
+            }
+        ]
     }
-
-
-
-
 
 
 
