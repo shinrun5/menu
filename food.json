@@ -881,6 +881,115 @@
                 "price": 15.95
             }
         ]
+    },
+
+
+
+    {
+        "cat": "Lunch",
+        "price": 8.25,
+        "dishes": [
+            {
+                "num": "L1",
+                "name": "Chow Mein with Choice of Chicken or Shrimp or Beef or Roast Pork"
+            },
+            {
+                "num": "L2",
+                "name": "Mixed Vegetables with Choice of Chicken or Shrimp or Beef or Roast Pork"
+            },
+            {
+                "num": "L3",
+                "name": "Pepper Steak with Onion"
+            },
+            {
+                "num": "L6",
+                "name": "Shrimp with Lobster Sauce"
+            },
+            {
+                "num": "L7",
+                "name": "Roast Pork or Chicken Egg Foo Young"
+            },
+            {
+                "num": "L8",
+                "name": "Beef or Chicken with Broccoli"
+            },
+            {
+                "num": "L9",
+                "name": "Moo Goo Gai Pan"
+            },
+            {
+                "num": "L10",
+                "name": "Hot and Spicy beef or Chicken"
+            },
+            {
+                "num": "L11",
+                "name": "Kung Pao Chicken with Peanuts"
+            },
+            {
+                "num": "L12",
+                "name": "Chicken with Cashew Nuts"
+            },
+            {
+                "num": "L13",
+                "name": "Shrimp of Beef Lo Mein"
+            },
+            {
+                "num": "L14",
+                "name": "Roast Pork or Chicken Lo Mein"
+            },
+            {
+                "num": "L15",
+                "name": "Chicken or Shrimp with Snow Peas"
+            },
+            {
+                "num": "L16",
+                "name": "Beef or Chicken with Szechuan Sauce"
+            },
+            {
+                "num": "L17",
+                "name": "Vegetables in Garlic Sauce with Choice of Chicken or Shrimp or Beef or Roast Pork"
+            },
+            {
+                "num": "L18",
+                "name": "Shrimp with Broccoli"
+            },
+            {
+                "num": "L19",
+                "name": "Sesame Chicken"
+            },
+            {
+                "num": "L20",
+                "name": "General Tso's Chicken"
+            },
+            {
+                "num": "L21",
+                "name": "Sweet and Sour Pork or Chicken"
+            },
+            {
+                "num": "L22",
+                "name": "Chicken with Onion and Curry Sauce"
+            },
+            {
+                "num": "L23",
+                "name": "Mixed Chinese Vegetables"
+            },
+            {
+                "num": "L24",
+                "name": "Broccoli with Garlic Sauce"
+            },
+            {
+                "num": "L25",
+                "name": "Steamed Chicken with Broccoli"
+            },
+            {
+                "num": "L26",
+                "name": "Steamed Shrimp with Mixed Veegtables"
+            },
+            {
+                "num": "L28",
+                "name": "General Tso's Bean Curd"
+            }
+        ]
     }
 
 
