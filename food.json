@@ -919,7 +919,7 @@
             },
             {
                 "num": "L10",
-                "name": "Hot and Spicy beef or Chicken"
+                "name": "Hot and Spicy Beef or Chicken"
             },
             {
                 "num": "L11",
@@ -988,6 +988,224 @@
             {
                 "num": "L28",
                 "name": "General Tso's Bean Curd"
+            }
+        ]
+    },
+
+
+    {
+        "cat": "Combo",
+        "price": 9.95,
+        "dishes": [
+            {
+                "num": "C1",
+                "name": "Chicken or Roast Pork with Broccoli"
+            },
+            {
+                "num": "C2",
+                "name": "Beef with Broccoli"
+            },
+            {
+                "num": "C3",
+                "name": "Shrimp with Broccoli"
+            },
+            {
+                "num": "C4",
+                "name": "Chicken with Mixed Vegetables"
+            },
+            {
+                "num": "C5",
+                "name": "Beef with Mixed Vegetables"
+            },
+            {
+                "num": "C6",
+                "name": "Shrimp with Mixed Vegetables"
+            },
+            {
+                "num": "C7",
+                "name": "Chicken or Pork Lo Mein"
+            },
+            {
+                "num": "C8",
+                "name": "Shrimp or Beef Lo Mein"
+            },
+            {
+                "num": "C9",
+                "name": "Shrimp or Chicken Chow Mein"
+            },
+            {
+                "num": "C10",
+                "name": "Pepper Steak with Onion"
+            },
+            {
+                "num": "C11",
+                "name": "Shrimp with Lobster Sauce"
+            },
+            {
+                "num": "C12",
+                "name": "Chicken with Garlic Sauce"
+            },
+            {
+                "num": "C13",
+                "name": "Shrimp with Garlic Sauce"
+            },
+            {
+                "num": "C14",
+                "name": "Beef with Garlic Sauce"
+            },
+            {
+                "num": "C15",
+                "name": "General Tso's Chicken"
+            },
+            {
+                "num": "C16",
+                "name": "Sesame Chicken"
+            },
+            {
+                "num": "C17",
+                "name": "Spare Ribs",
+                "dPrice": 11.75
+            },
+            {
+                "num": "C18",
+                "name": "Boneless Spare Ribs",
+                "dPrice": 11.75
+            },
+            {
+                "num": "C19",
+                "name": "Sweet and Sour Pork or Chicken"
+            },
+            {
+                "num": "C20",
+                "name": "Chicken with Cashew Nuts"
+            },
+            {
+                "num": "C21",
+                "name": "Roast Pork or Chicken Egg Foo Young"
+            },
+            {
+                "num": "C22",
+                "name": "Moo Goo Gai Pan"
+            },
+            {
+                "num": "C23",
+                "name": "Chicken with Szechuan Sauce"
+            },
+            {
+                "num": "C24",
+                "name": "Chicken with Onion and Curry Sauce"
+            },
+            {
+                "num": "C25",
+                "name": "beef or Shrimp Hunan Style"
+            },
+            {
+                "num": "C26",
+                "name": "Hot and Spicy Beef or Shrimp"
+            }
+        ]
+    },
+
+
+    {
+        "cat": "specials",
+        "price": 15.95,
+        "dishes": [
+            {
+                "num": "S1",
+                "name": "Happy Family",
+                "description": "Shrimp, Scallop, Beef, Chicken, Roast Pork, Crab Meat with Mixed Vegetables in Brown Sauce"
+            },
+            {
+                "num": "S2",
+                "name": "Four Season",
+                "description": "Shrimp, Beef, Roast Pork with Mixed Vegetables in Brown Sauce"
+            },
+            {
+                "num": "S3",
+                "name": "Seafood Delight",
+                "description": "Baby Lobster, Shrimp, Scallop, crab Meat with Mixed Vegetables in White Sauce"
+            },
+            {
+                "num": "S4",
+                "name": "Sesame Chicken"
+            },
+            {
+                "num": "S5",
+                "name": "General Tso's Chicken"
+            },
+            {
+                "num": "S6",
+                "name": "Sesame Beef"
+            },
+            {
+                "num": "S7",
+                "name": "General Tso's Chicken"
+            },
+            {
+                "num": "S8",
+                "name": "Dragon and Phoenix",
+                "description": "General Tso's Chicken and Shrimp with Mixed Vegetables"
+            },
+            {
+                "num": "S9",
+                "name": "Triple Delight with Garlic Sauce",
+                "description": "Chicken, Shrimp and Beef with Mixed Vegetables in Garlic Sauce"
+            },
+            {
+                "num": "S10",
+                "name": "Shrimp and Scallops",
+                "description": "Shrimp and Scallop with Mixed Vegetables in White Sauce"
+            },
+            {
+                "num": "S11",
+                "name": "Lemon Chicken"
+            },
+            {
+                "num": "S12",
+                "name": "Chicken in Orange Flavor"
+            },
+            {
+                "num": "S13",
+                "name": "Beef in Orange Flavor"
+            },
+            {
+                "num": "S14",
+                "name": "Crispy Shrimp",
+                "description": "Deep Fried Battered Shrimp with Mixed Vegetables in Brown Sauce"
+            },
+            {
+                "num": "S15",
+                "name": "Seafood Pan Fried Noodles",
+                "description": "Pan Fried Noodles with Scallop, Baby Lobster, Crab Meat and Shrimp with Mixed Vegetables in White Sauce"
+            },
+            {
+                "num": "S16",
+                "name": "House Special Pan Fried Noodle",
+                "description": "Pan Fried Noodle with Shrimp, Chicken and Roast Pork with Mixed Vegetables in Brown Sauce"
+            },
+            {
+                "num": "S17",
+                "name": "Shrimp and Chicken Szechuan Style"
+            },
+            {
+                "num": "S18",
+                "name": "Scallop with Beef in Garlic Sauce"
+            },
+            {
+                "num": "S19",
+                "name": "Butterfly Shrimp with Bacon",
+                "description": "Shrimp and Bacon Pan Fried with Egg on top of Mixed Vegetables in Brown Sauce, Finished with Chopped Peanuts"
+            },
+            {
+                "num": "S20",
+                "name": "Mongolian Beef",
+                "description": "Beef Sauteed with Pepper, Carrot, Mushroom, Bamboo Shoot in Spicy Brown Sauce"
+            },
+            {
+                "num": "S21",
+                "name": "Hunan Triple Delight",
+                "description": "Chicken, Beef and Shrimp with Mixed Vegetables in Hunan Sauce"
             }
         ]
     }

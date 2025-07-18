@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Chef's Specialities</title>
+</head>
+<h1>Chef's Specialities</h1>
+<ul>
+
+</ul>
+<body>
+    <script>
+        const listE1 = document.querySelector('ul');
+
+        fetch('./food.json')
+            .then(res => res.json())
+            .then(data => {
+                data.forEach(post => {
+                    listE1.insertAdjacentHTML('beforeend', `<li>${post.name}</li>`);
+                });
+            });
+    </script>
+</body>
+</html>
