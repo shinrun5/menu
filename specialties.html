@@ -11,15 +11,16 @@
 </ul>
 <body>
     <script>
-        const listE1 = document.querySelector('ul');
 
         fetch('./food.json')
             .then(res => res.json())
             .then(data => {
-                data.forEach(post => {
-                    listE1.insertAdjacentHTML('beforeend', `<li>${post.name}</li>`);
-                });
-            });
+                
+                const Specialities = data.filter(item => item.cat.toLowerCase() === 'specials');
+
+                console.log(Specialities);
+                })
+                .catch(error => console.error('Error fetching JSON', error));
     </script>
 </body>
 </html>
