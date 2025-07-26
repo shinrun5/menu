@@ -4,23 +4,10 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Chef's Specialities</title>
+    <script src="menu.js" defer> </script>
 </head>
-<h1>Chef's Specialities</h1>
-<ul>
-
-</ul>
 <body>
-    <script>
-
-        fetch('./food.json')
-            .then(res => res.json())
-            .then(data => {
-                
-                const Specialities = data.filter(item => item.cat.toLowerCase() === 'specials');
-
-                console.log(Specialities);
-                })
-                .catch(error => console.error('Error fetching JSON', error));
-    </script>
+<h1>Chef's Specialities</h1>
+    <div class="chef"> </div>
 </body>
 </html>
