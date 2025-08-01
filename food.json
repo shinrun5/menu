@@ -144,9 +144,6 @@
         "price": 6.25,
         "cat": "App"
     },
-
-
-
     {
         "num": "1",
         "name": "Wonton Soup",
@@ -253,16 +250,13 @@
         "cat": "App",
         "subcat": "Soup"
     },
-
-
-
     {
         "cat": "R&N",
         "subcat": "Rice",
         "type": [
             {
                 "num": "11",
-                "name": "Vegetable Fried Rice", 
+                "name": "Vegetable Fried Rice",
                 "sizes": [
                     {
                         "size": "Small",
@@ -276,7 +270,7 @@
             },
             {
                 "num": "12",
-                "name": "Pork or Chicken Fried Rice", 
+                "name": "Pork or Chicken Fried Rice",
                 "sizes": [
                     {
                         "size": "Small",
@@ -290,7 +284,7 @@
             },
             {
                 "num": "13",
-                "name": "Beef or Shrimp Fried Rice", 
+                "name": "Beef or Shrimp Fried Rice",
                 "sizes": [
                     {
                         "size": "Small",
@@ -325,7 +319,7 @@
             },
             {
                 "num": "16",
-                "name": "House Special Fried Rice", 
+                "name": "House Special Fried Rice",
                 "sizes": [
                     {
                         "size": "Small",
@@ -345,7 +339,7 @@
         "type": [
             {
                 "num": "17",
-                "name": "Vegetable Lo Mein", 
+                "name": "Vegetable Lo Mein",
                 "sizes": [
                     {
                         "size": "Small",
@@ -359,7 +353,7 @@
             },
             {
                 "num": "18",
-                "name": "Pork Lo Mein", 
+                "name": "Pork Lo Mein",
                 "sizes": [
                     {
                         "size": "Small",
@@ -373,7 +367,7 @@
             },
             {
                 "num": "19",
-                "name": "Chicken Lo Mein", 
+                "name": "Chicken Lo Mein",
                 "sizes": [
                     {
                         "size": "Small",
@@ -387,7 +381,7 @@
             },
             {
                 "num": "20",
-                "name": "Beef Lo Mein", 
+                "name": "Beef Lo Mein",
                 "sizes": [
                     {
                         "size": "Small",
@@ -401,7 +395,7 @@
             },
             {
                 "num": "21",
-                "name": "Shrimp Lo Mein", 
+                "name": "Shrimp Lo Mein",
                 "sizes": [
                     {
                         "size": "Small",
@@ -425,7 +419,7 @@
             },
             {
                 "num": "23",
-                "name": "House Special Fried Rice", 
+                "name": "House Special Fried Rice",
                 "sizes": [
                     {
                         "size": "Large",
@@ -435,14 +429,11 @@
             }
         ]
     },
-
-
-
     {
         "num": "31",
         "name": "Sweet and Sour Chicken",
         "cat": "Entree",
-        "subcat": "Chicken",
+        "subcat": "S&S",
         "sizes": [
             {
                 "size": "Small",
@@ -451,6 +442,16 @@
             {
                 "size": "Large",
                 "price": 11.35
+            }
+        ],
+        "dishes": [
+            {
+                "num": "31",
+                "name": "Sweet and Sour Chicken"
+            },
+            {
+                "num": "32",
+                "name": "Sweet and Sour Pork"
             }
         ]
     },
@@ -530,8 +531,6 @@
             }
         ]
     },
-
-
     {
         "cat": "Entree",
         "subcat": "Beef",
@@ -604,8 +603,6 @@
             }
         ]
     },
-
-
     {
         "cat": "Entree",
         "subcat": "Shrimp",
@@ -670,8 +667,6 @@
             }
         ]
     },
-
-
     {
         "cat": "Entree",
         "subcat": "Pork",
@@ -716,8 +711,6 @@
             }
         ]
     },
-
-
     {
         "cat": "Entree",
         "subcat": "Egg Foo Young",
@@ -741,8 +734,6 @@
             }
         ]
     },
-
-
     {
         "cat": "Entree",
         "subcat": "Fun",
@@ -784,8 +775,6 @@
             }
         ]
     },
-
-
     {
         "cat": "Entree",
         "subcat": "Moo Shu",
@@ -805,8 +794,6 @@
             }
         ]
     },
-
-
     {
         "cat": "Veg",
         "price": 10.75,
@@ -849,9 +836,6 @@
             }
         ]
     },
-
-
-
     {
         "cat": "Veg",
         "dishes": [
@@ -882,9 +866,6 @@
             }
         ]
     },
-
-
-
     {
         "cat": "Lunch",
         "price": 8.25,
@@ -991,8 +972,6 @@
             }
         ]
     },
-
-
     {
         "cat": "Combo",
         "price": 9.95,
@@ -1064,12 +1043,12 @@
             {
                 "num": "C17",
                 "name": "Spare Ribs",
-                "dPrice": 11.75
+                "Price": 11.75
             },
             {
                 "num": "C18",
                 "name": "Boneless Spare Ribs",
-                "dPrice": 11.75
+                "Price": 11.75
             },
             {
                 "num": "C19",
@@ -1105,8 +1084,6 @@
             }
         ]
     },
-
-
     {
         "cat": "specials",
         "price": 15.95,
@@ -1209,7 +1186,4 @@
             }
         ]
     }
-
-
-
 ]
