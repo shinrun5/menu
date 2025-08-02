@@ -1,5 +1,7 @@
 body{
-    margin: 0px;
+    height: 200vh; /* enough scroll room */
+    margin: 0;
+    overflow-x: hidden;
 }
 
 main{
@@ -37,4 +39,23 @@ img.logo{
 .navbar li{
     float: left;
 
+}
+
+#info {
+    color: black;
+    size: 15px;
+    text-align: center;
+}
+
+.spacer {
+  height: 100vh;
+}
+
+.scroll-img {
+  position: fixed;
+  top: 30%;
+  left: 0;
+  width: 150px;
+  transition: transform 0.1s ease-out;
+  pointer-events: none;
 }

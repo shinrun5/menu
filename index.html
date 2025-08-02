@@ -9,8 +9,8 @@
 </head>
 
 <body>
-    <img class = "logo" src="pics/Logo.png" alt="New China House logo"></img>
-    <nav class = "navbar">
+    <img class="logo" src="pics/Logo.png" alt="New China House logo"></img>
+    <nav class="navbar">
         <ul>
             <li><a href="appetizers.html">Appetizers</a></li>
             <li><a href="lunch.html">Lunch Specials</a></li>
@@ -21,7 +21,28 @@
         </ul>
     </nav>
 
-    <main></main>
+    <main>
+        <div id="info">357 Applgarth Road, <br>
+            Monroe, NJ 08831 <br>
+            (609) 395-9024 <br>
+            (609) 395-9025 <br>
+        </div>
+
+        <div class="spacer"></div>
+
+        <img id="deliveryImage" src="pics/Delivery.png" alt="Delivery" class="scroll-img">
+
+        <div class="spacer"></div>
+
+        <script>
+            window.addEventListener("scroll", () => {
+                const img = document.getElementById("deliveryImage");
+                const scrollY = window.scrollY;
+                img.style.transform = `translateX(${scrollY}px)`;
+            });
+        </script>
+
+    </main>
 </body>
 
 </html>
