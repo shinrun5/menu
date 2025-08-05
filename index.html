@@ -34,11 +34,52 @@
 
         <div class="spacer"></div>
 
+        <button id="openPopupBtn">Open Popup</button>
+
+        <div id="popupOverlay" class="popup-overlay">
+            <div class="popup-content">
+                <h2>Delivery</h2>
+                <p>We do delivery.</p>
+                <button id="closePopupBtn">Close</button>
+            </div>
+        </div>
+
         <script>
-            window.addEventListener("scroll", () => {
-                const img = document.getElementById("deliveryImage");
-                const scrollY = window.scrollY;
-                img.style.transform = `translateX(${scrollY}px)`;
+            let imageHidden = false;
+
+            window.addEventListener('scroll', () => {
+                const img = document.getElementById('deliveryImage');
+                const scrollX = window.scrollY;
+
+                const maxLeft = window.innerWidth - img.offsetWidth;
+                const newLeft = Math.min(scrollX, maxLeft);
+
+                img.style.left = newLeft + 'px';
+
+                // Hide the image when it hits the right edge
+                if (newLeft >= maxLeft) {
+                    img.style.opacity = '0';
+                    imageHidden = true;
+                }
+            });
+
+            const openPopupBtn = document.getElementById('openPopupBtn');
+            const closePopupBtn = document.getElementById('closePopupBtn');
+            const popupOverlay = document.getElementById('popupOverlay');
+
+            openPopupBtn.addEventListener('click', () => {
+                popupOverlay.classList.add('show-popup');
+            });
+
+            closePopupBtn.addEventListener('click', () => {
+                popupOverlay.classList.remove('show-popup');
+            });
+
+            // Optional: Close popup when clicking outside the content
+            popupOverlay.addEventListener('click', (event) => {
+                if (event.target === popupOverlay) {
+                    popupOverlay.classList.remove('show-popup');
+                }
             });
         </script>
 

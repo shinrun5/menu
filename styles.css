@@ -1,20 +1,21 @@
-body{
-    height: 200vh; /* enough scroll room */
+body {
+    height: 200vh;
+    /* enough scroll room */
     margin: 0;
     overflow-x: hidden;
 }
 
-main{
+main {
     margin: 20px;
 }
 
-img.logo{
+img.logo {
     width: 100%;
     height: auto;
     display: block;
 }
 
-.navbar ul{
+.navbar ul {
     display: flex;
     list-style-type: none;
     background-color: red;
@@ -24,7 +25,7 @@ img.logo{
     justify-content: space-around;
 }
 
-.navbar a{
+.navbar a {
     color: white;
     text-decoration: none;
     padding: 15px;
@@ -32,11 +33,11 @@ img.logo{
     text-align: center;
 }
 
-.navbar a:hover{
+.navbar a:hover {
     background: orangered;
 }
 
-.navbar li{
+.navbar li {
     float: left;
 
 }
@@ -48,14 +49,40 @@ img.logo{
 }
 
 .spacer {
-  height: 100vh;
+    height: 100vh;
 }
 
 .scroll-img {
-  position: fixed;
-  top: 30%;
-  left: 0;
-  width: 150px;
-  transition: transform 0.1s ease-out;
-  pointer-events: none;
+    position: fixed;
+    top: 30%;
+    left: 0;
+    width: 150px;
+    transition: transform 0.1s ease-out;
+    pointer-events: none;
+}
+
+.popup-overlay {
+    display: none;
+    /* Hidden by default */
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+    /* Semi-transparent background */
+    justify-content: center;
+    align-items: center;
+}
+
+.popup-content {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 5px;
+    text-align: center;
+}
+
+.show-popup {
+    display: flex;
+    /* Show the popup */
 }
