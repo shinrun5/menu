@@ -39,7 +39,7 @@
         <div id="popupOverlay" class="popup-overlay">
             <div class="popup-content">
                 <h2>Delivery</h2>
-                <p>We do delivery.</p>
+                <p>We do deliveries.</p>
                 <button id="closePopupBtn">Close</button>
             </div>
         </div>
@@ -60,6 +60,7 @@
                 if (newLeft >= maxLeft) {
                     img.style.opacity = '0';
                     imageHidden = true;
+                    popupOverlay.classList.add('show-popup');
                 }
             });
 
@@ -67,9 +68,6 @@
             const closePopupBtn = document.getElementById('closePopupBtn');
             const popupOverlay = document.getElementById('popupOverlay');
 
-            openPopupBtn.addEventListener('click', () => {
-                popupOverlay.classList.add('show-popup');
-            });
 
             closePopupBtn.addEventListener('click', () => {
                 popupOverlay.classList.remove('show-popup');
