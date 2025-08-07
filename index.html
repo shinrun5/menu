@@ -28,52 +28,63 @@
             (609) 395-9025 <br>
         </div>
 
-        <div class="spacer"></div>
 
         <img id="deliveryImage" src="pics/Delivery.png" alt="Delivery" class="scroll-img">
 
-        <div class="spacer"></div>
-
-        <button id="openPopupBtn">Open Popup</button>
 
         <div id="popupOverlay" class="popup-overlay">
             <div class="popup-content">
                 <h2>Delivery</h2>
-                <p>We do deliveries.</p>
+                <p>We do deliveries. <br> ONLY THREE EXTRA DOLLARS FOR DELIVERIES</p>
                 <button id="closePopupBtn">Close</button>
             </div>
         </div>
 
+       <div class = "map">
+        <h3>Our Location</h3>
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3041.761339582267!2d-74.47230428882419!3d40.325453971335286!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89c3d9177d7473b9%3A0x45c523df88c488ed!2sNew%20China%20House!5e0!3m2!1sen!2sus!4v1754543095168!5m2!1sen!2sus" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+       </div>
+
+       <div class="spacer"></div>
+
+       <div id = "info">Open 6 Days A Week <br>
+        Monday to Saturdagy : 10:30 AM - 9 PM <br>
+        Sunday Closed!
+       </div>
+
+       <img class="payment" src="pics/payment.png" alt="Payment Option"></img>
+
+
         <script>
             let imageHidden = false;
+            let popupShown = false;
 
-            window.addEventListener('scroll', () => {
-                const img = document.getElementById('deliveryImage');
-                const scrollX = window.scrollY;
-
-                const maxLeft = window.innerWidth - img.offsetWidth;
-                const newLeft = Math.min(scrollX, maxLeft);
-
-                img.style.left = newLeft + 'px';
-
-                // Hide the image when it hits the right edge
-                if (newLeft >= maxLeft) {
-                    img.style.opacity = '0';
-                    imageHidden = true;
-                    popupOverlay.classList.add('show-popup');
-                }
-            });
-
-            const openPopupBtn = document.getElementById('openPopupBtn');
+            const img = document.getElementById('deliveryImage');
             const closePopupBtn = document.getElementById('closePopupBtn');
             const popupOverlay = document.getElementById('popupOverlay');
 
+            window.addEventListener('scroll', () => {
+                const scrollY = window.scrollY;
+                const maxLeft = window.innerWidth - img.offsetWidth;
+                const newLeft = Math.min(scrollY, maxLeft);
+
+                img.style.left = newLeft + 'px';
+
+                if (newLeft >= maxLeft && !imageHidden) {
+                    img.style.opacity = '0';
+                    imageHidden = true;
+
+                    if (!popupShown) {
+                        popupOverlay.classList.add('show-popup');
+                        popupShown = true;
+                    }
+                }
+            });
 
             closePopupBtn.addEventListener('click', () => {
                 popupOverlay.classList.remove('show-popup');
             });
 
-            // Optional: Close popup when clicking outside the content
             popupOverlay.addEventListener('click', (event) => {
                 if (event.target === popupOverlay) {
                     popupOverlay.classList.remove('show-popup');
