@@ -87,7 +87,8 @@ document.addEventListener("DOMContentLoaded", () => {
         entrees.forEach(item => {
           // Subcategory heading
           const heading = document.createElement("h2");
-          heading.textContent = item.subcat || "Miscellaneous";
+          heading.textContent = item.subcat;
+          heading.classList.add("subcat");
           menuDiv.appendChild(heading);
 
           // Case 1: Item has dishes array
