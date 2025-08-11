@@ -97,3 +97,18 @@ img.logo {
     border-bottom: 2px solid red;
     /* padding-bottom: 0.25rem; */
 }
+
+.menu-item {
+  display: grid;
+  grid-template-columns: 1fr 60px 60px; /* Name | Small | Large */
+  gap: 10px;
+  align-items: center;
+}
+
+.item-name {
+  font-weight: bold;
+}
+
+.price {
+  text-align: right;
+}

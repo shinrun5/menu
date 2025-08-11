@@ -91,83 +91,41 @@ document.addEventListener("DOMContentLoaded", () => {
           heading.classList.add("subcat");
           menuDiv.appendChild(heading);
 
-          // Case 1: Item has dishes array
           if (item.dishes && Array.isArray(item.dishes)) {
-            // If sizes exist, show size prices per dish
-            if (item.sizes && Array.isArray(item.sizes)) {
-              item.dishes.forEach(dish => {
-                const dishDiv = document.createElement("div");
-                dishDiv.style.marginBottom = "1em";
-
-                const dishTitle = document.createElement("strong");
-                dishTitle.textContent = `${dish.num}: ${dish.name}`;
-                dishDiv.appendChild(dishTitle);
-
-                const priceList = document.createElement("ul");
-                item.sizes.forEach(sizeObj => {
-                  // Use dish.price if available, else size price
-                  const price = dish.price !== undefined ? dish.price : sizeObj.price;
-                  const li = document.createElement("li");
-                  li.textContent = `${sizeObj.size}: $${price.toFixed(2)}`;
-                  priceList.appendChild(li);
-                });
-                dishDiv.appendChild(priceList);
-
-                menuDiv.appendChild(dishDiv);
-              });
-            }
-            // No sizes, shared price per dish
-            else if (item.price !== undefined) {
-              item.dishes.forEach(dish => {
-                const dishDiv = document.createElement("div");
-                dishDiv.textContent = `${dish.num}: ${dish.name} - $${item.price.toFixed(2)}`;
-                menuDiv.appendChild(dishDiv);
-              });
-            }
-            // Prices per dish individually
-            else {
-              item.dishes.forEach(dish => {
-                const dishDiv = document.createElement("div");
-                if (dish.price !== undefined) {
-                  dishDiv.textContent = `${dish.num}: ${dish.name} - $${dish.price.toFixed(2)}`;
-                } else {
-                  dishDiv.textContent = `${dish.num}: ${dish.name} - Price not available`;
-                }
-                menuDiv.appendChild(dishDiv);
-              });
-            }
-          }
-          // Case 2: Item has no dishes (like Sweet and Sour Chicken)
-          else {
-            // If sizes exist, list the item with sizes
-            if (item.sizes && Array.isArray(item.sizes)) {
+            item.dishes.forEach(dish => {
               const dishDiv = document.createElement("div");
-              const dishTitle = document.createElement("strong");
-              dishTitle.textContent = `${item.num}: ${item.name}`;
-              dishDiv.appendChild(dishTitle);
+              dishDiv.classList.add("menu-item"); // CSS grid will handle alignment
 
-              const priceList = document.createElement("ul");
-              item.sizes.forEach(sizeObj => {
-                const li = document.createElement("li");
-                li.textContent = `${sizeObj.size}: $${sizeObj.price.toFixed(2)}`;
-                priceList.appendChild(li);
-              });
-              dishDiv.appendChild(priceList);
+              // Dish name
+              const dishName = document.createElement("span");
+              dishName.classList.add("item-name");
+              dishName.textContent = `${dish.num}: ${dish.name}`;
+              dishDiv.appendChild(dishName);
+
+              // Small price
+                const smallPrice = document.createElement("span");
+                smallPrice.classList.add("price", "small");
+                const small = dish.sizes?.find(s => s.size === "Small")?.price
+                  ?? item.sizes?.find(s => s.size === "Small")?.price
+                  ?? "";
+                smallPrice.textContent = small ? `$${small.toFixed(2)}` : "";
+                dishDiv.appendChild(smallPrice);
+
+                // Large price
+                const largePrice = document.createElement("span");
+                largePrice.classList.add("price", "large");
+                const large = dish.sizes?.find(s => s.size === "Large")?.price
+                  ?? item.sizes?.find(s => s.size === "Large")?.price
+                  ?? dish.price
+                  ?? item.price
+                  ?? "";
+
+              largePrice.textContent = large ? `$${large.toFixed(2)}` : "";
+              dishDiv.appendChild(largePrice);
 
               menuDiv.appendChild(dishDiv);
-            }
-            // Else if price exists directly on item
-            else if (item.price !== undefined) {
-              const div = document.createElement("div");
-              div.textContent = `${item.num}: ${item.name} - $${item.price.toFixed(2)}`;
-              menuDiv.appendChild(div);
-            }
-            // Otherwise just display name and num (no price info)
-            else {
-              const div = document.createElement("div");
-              div.textContent = `${item.num}: ${item.name} - Price not available`;
-              menuDiv.appendChild(div);
-            }
+
+            });
           }
         });
       }
