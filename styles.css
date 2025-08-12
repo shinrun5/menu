@@ -112,3 +112,19 @@ img.logo {
 .price {
   text-align: right;
 }
+
+.chinese-menu-border {
+  padding: 20px;
+  margin: 20px auto;
+  max-width: 800px;
+  background-color: #fff8e1; /* light cream background */
+
+  /* must have width + style for border-image to display */
+  border: 40px solid transparent;
+
+  /* border image settings */
+  border-image-source: url('pics/border.png');
+  border-image-slice: 120; /* adjust to match your image’s corner thickness */
+  border-image-repeat: round; /* repeat pattern around edges */
+}
+

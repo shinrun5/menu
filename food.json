@@ -1,254 +1,225 @@
 [
     {
-        "num": "A1",
-        "name": "Roast Pork Egg Roll",
-        "price": 2.00,
-        "cat": "App"
-    },
-    {
-        "num": "A2",
-        "name": "Shrimp Egg Roll",
-        "price": 2.00,
-        "cat": "App"
-    },
-    {
-        "num": "A3",
-        "name": "Spring Roll (2 pieces)",
-        "price": 2.95,
-        "cat": "App"
-    },
-    {
-        "num": "A4",
-        "name": "Chicken on Stick",
-        "price": 7.25,
-        "cat": "App"
-    },
-    {
-        "num": "A5",
-        "name": "Beef on Stick",
-        "price": 7.25,
-        "cat": "App"
-    },
-    {
-        "num": "A7",
-        "name": "Fried Wontons (10 pieces)",
-        "price": 3.95,
-        "cat": "App"
-    },
-    {
-        "num": "A8",
-        "name": "Crab Rangoon (8 pieces)",
-        "price": 6.25,
-        "cat": "App"
-    },
-    {
-        "num": "A9",
-        "name": "Cold Noodles with Sesame Sauce",
-        "price": 6.30,
-        "cat": "App"
-    },
-    {
-        "num": "A10",
-        "name": "Fried Half Chicken",
-        "price": 6.95,
-        "cat": "App"
-    },
-    {
-        "num": "A11",
-        "name": "Fried Chicken Wings (4 whole wings)",
-        "price": 6.95,
-        "cat": "App"
-    },
-    {
-        "num": "A12",
-        "name": "Spare Rib Tips",
-        "price": 6.20,
-        "cat": "App"
-    },
-    {
-        "num": "A13",
-        "name": "Fried Baby Shrimp (15 shrimps)",
-        "price": 6.95,
-        "cat": "App"
-    },
-    {
-        "num": "A14",
-        "name": "Fried Jumbo Shrimp (5 shrimps)",
-        "price": 6.95,
-        "cat": "App"
-    },
-    {
-        "num": "A15",
-        "name": "Fried Scallops (12 pieces)",
-        "price": 6.25,
-        "cat": "App"
-    },
-    {
-        "num": "A18",
-        "name": "Steamed or Fried Pork Dumplings (8 pieces)",
-        "price": 6.75,
-        "cat": "App"
-    },
-    {
-        "num": "A19",
-        "name": "Steamed or Fried Vegetable Dumplings (8 pieces)",
-        "price": 6.75,
-        "cat": "App"
-    },
-    {
-        "num": "A20",
-        "name": "Barbecued Spare Ribs",
-        "sizes": [
+        "cat": "App",
+        "subcat": "Appitizers",
+        "dishes": [
             {
-                "size": "Small (5 Ribs)",
-                "price": 9.50
+                "num": "A1",
+                "name": "Roast Pork Egg Roll",
+                "price": 2.00
             },
             {
-                "size": "Large (10 Ribs)",
-                "price": 15.50
-            }
-        ],
-        "cat": "App"
-    },
-    {
-        "num": "A21",
-        "name": "Boneless Spare Ribs",
-        "sizes": [
-            {
-                "size": "Small",
-                "price": 9.50
+                "num": "A2",
+                "name": "Shrimp Egg Roll",
+                "price": 2.00
             },
             {
-                "size": "Large",
-                "price": 15.50
-            }
-        ],
-        "cat": "App"
-    },
-    {
-        "num": "A22",
-        "name": "French Fries",
-        "price": 4.75,
-        "cat": "App"
-    },
-    {
-        "num": "A23",
-        "name": "Pu Pu Platter",
-        "price": 14.95,
-        "cat": "App",
-        "description": "Include Chicken on Sticks, Spare Ribs, Fried Jumbo Shrimps, Egg Rolls, Chicken Wings and Fried Wontons"
-    },
-    {
-        "num": "A24",
-        "name": "Scallion Pancake",
-        "price": 6.25,
-        "cat": "App"
-    },
-    {
-        "num": "1",
-        "name": "Wonton Soup",
-        "sizes": [
-            {
-                "size": "Pint",
-                "price": 3.25
+                "num": "A3",
+                "name": "Spring Roll (2 pieces)",
+                "price": 2.95
             },
             {
-                "size": "Quart",
-                "price": 4.50
-            }
-        ],
-        "cat": "App",
-        "subcat": "Soup"
-    },
-    {
-        "num": "2",
-        "name": "Egg Drop Soup",
-        "sizes": [
-            {
-                "size": "Pint",
-                "price": 3.25
+                "num": "A4",
+                "name": "Chicken on Stick",
+                "price": 7.25
             },
             {
-                "size": "Quart",
-                "price": 4.50
-            }
-        ],
-        "cat": "App",
-        "subcat": "Soup"
-    },
-    {
-        "num": "3",
-        "name": "Chicken Noodle or Rice Soup",
-        "price": 5.30,
-        "cat": "App",
-        "subcat": "Soup"
-    },
-    {
-        "num": "4",
-        "name": "Pork or Chicken Yat Gaw Mein Soup",
-        "price": 5.30,
-        "cat": "App",
-        "subcat": "Soup"
-    },
-    {
-        "num": "5",
-        "name": "Wonton Egg Drop Soup",
-        "sizes": [
+                "num": "A5",
+                "name": "Beef on Stick",
+                "price": 7.25
+            },
             {
-                "size": "Pint",
+                "num": "A7",
+                "name": "Fried Wontons (10 pieces)",
                 "price": 3.95
             },
             {
-                "size": "Quart",
-                "price": 5.25
-            }
-        ],
-        "cat": "App",
-        "subcat": "Soup"
-    },
-    {
-        "num": "6",
-        "name": "Hot and Sour Soup",
-        "sizes": [
-            {
-                "size": "Pint",
-                "price": 3.95
+                "num": "A8",
+                "name": "Crab Rangoon (8 pieces)",
+                "price": 6.25
             },
             {
-                "size": "Quart",
-                "price": 5.25
+                "num": "A9",
+                "name": "Cold Noodles with Sesame Sauce",
+                "price": 6.30
+            },
+            {
+                "num": "A10",
+                "name": "Fried Half Chicken",
+                "price": 6.95
+            },
+            {
+                "num": "A11",
+                "name": "Fried Chicken Wings (4 whole wings)",
+                "price": 6.95
+            },
+            {
+                "num": "A12",
+                "name": "Spare Rib Tips",
+                "price": 6.20
+            },
+            {
+                "num": "A13",
+                "name": "Fried Baby Shrimp (15 shrimps)",
+                "price": 6.95
+            },
+            {
+                "num": "A14",
+                "name": "Fried Jumbo Shrimp (5 shrimps)",
+                "price": 6.95
+            },
+            {
+                "num": "A15",
+                "name": "Fried Scallops (12 pieces)",
+                "price": 6.25
+            },
+            {
+                "num": "A18",
+                "name": "Steamed or Fried Pork Dumplings (8 pieces)",
+                "price": 6.75
+            },
+            {
+                "num": "A19",
+                "name": "Steamed or Fried Vegetable Dumplings (8 pieces)",
+                "price": 6.75
+            },
+            {
+                "num": "A20",
+                "name": "Barbecued Spare Ribs",
+                "sizes": [
+                    {
+                        "size": "Small (5 Ribs)",
+                        "price": 9.50
+                    },
+                    {
+                        "size": "Large (10 Ribs)",
+                        "price": 15.50
+                    }
+                ]
+            },
+            {
+                "num": "A21",
+                "name": "Boneless Spare Ribs",
+                "sizes": [
+                    {
+                        "size": "Small",
+                        "price": 9.50
+                    },
+                    {
+                        "size": "Large",
+                        "price": 15.50
+                    }
+                ]
+            },
+            {
+                "num": "A22",
+                "name": "French Fries",
+                "price": 4.75
+            },
+            {
+                "num": "A23",
+                "name": "Pu Pu Platter",
+                "price": 14.95,
+                "description": "Include Chicken on Sticks, Spare Ribs, Fried Jumbo Shrimps, Egg Rolls, Chicken Wings and Fried Wontons"
+            },
+            {
+                "num": "A24",
+                "name": "Scallion Pancake",
+                "price": 6.25
             }
-        ],
-        "cat": "App",
-        "subcat": "Soup"
+        ]
     },
     {
-        "num": "7",
-        "name": "Mixed Vegetables with Tofu Soup",
-        "price": 5.25,
         "cat": "App",
-        "subcat": "Soup"
-    },
-    {
-        "num": "8",
-        "name": "Subgum Wonton Soup",
-        "price": 6.75,
-        "cat": "App",
-        "subcat": "Soup"
-    },
-    {
-        "num": "9",
-        "name": "Seafood Soup",
-        "price": 7.30,
-        "cat": "App",
-        "subcat": "Soup"
-    },
-    {
-        "num": "10",
-        "name": "Chicken or Shrimp Mei Fun Soup",
-        "price": 6.25,
-        "cat": "App",
-        "subcat": "Soup"
+        "subcat": "Soup",
+        "dishes": [
+            {
+                "num": "1",
+                "name": "Wonton Soup",
+                "sizes": [
+                    {
+                        "size": "Pint",
+                        "price": 3.25
+                    },
+                    {
+                        "size": "Quart",
+                        "price": 4.50
+                    }
+                ]
+            },
+            {
+                "num": "2",
+                "name": "Egg Drop Soup",
+                "sizes": [
+                    {
+                        "size": "Pint",
+                        "price": 3.25
+                    },
+                    {
+                        "size": "Quart",
+                        "price": 4.50
+                    }
+                ]
+            },
+            {
+                "num": "3",
+                "name": "Chicken Noodle or Rice Soup",
+                "price": 5.30
+            },
+            {
+                "num": "4",
+                "name": "Pork or Chicken Yat Gaw Mein Soup",
+                "price": 5.30
+            },
+            {
+                "num": "5",
+                "name": "Wonton Egg Drop Soup",
+                "sizes": [
+                    {
+                        "size": "Pint",
+                        "price": 3.95
+                    },
+                    {
+                        "size": "Quart",
+                        "price": 5.25
+                    }
+                ]
+            },
+            {
+                "num": "6",
+                "name": "Hot and Sour Soup",
+                "sizes": [
+                    {
+                        "size": "Pint",
+                        "price": 3.95
+                    },
+                    {
+                        "size": "Quart",
+                        "price": 5.25
+                    }
+                ]
+            },
+            {
+                "num": "7",
+                "name": "Mixed Vegetables with Tofu Soup",
+                "price": 5.25
+            },
+            {
+                "num": "8",
+                "name": "Subgum Wonton Soup",
+                "price": 6.75
+            },
+            {
+                "num": "9",
+                "name": "Seafood Soup",
+                "price": 7.30
+            },
+            {
+                "num": "10",
+                "name": "Chicken or Shrimp Mei Fun Soup",
+                "price": 6.25
+            }
+        ]
     },
     {
         "cat": "R&N",
@@ -795,7 +766,8 @@
         ]
     },
     {
-        "cat": "Veg",
+        "cat": "Entree",
+        "subcat": "Vegeterian",
         "price": 10.75,
         "dishes": [
             {
@@ -837,7 +809,8 @@
         ]
     },
     {
-        "cat": "Veg",
+        "cat": "Entree",
+        "subcat": "Healthy Dishes",
         "dishes": [
             {
                 "num": "H1",

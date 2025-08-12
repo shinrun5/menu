@@ -129,19 +129,6 @@ document.addEventListener("DOMContentLoaded", () => {
           }
         });
       }
-      else if (category === "veg") {
-        const veg = data.filter(item => item.cat === "Veg");
-        veg.forEach(item => {
-          if (Array.isArray(item.dishes)) {
-            item.dishes.forEach(dish => {
-              const price = dish.price !== undefined ? dish.price : item.price;
-              const div = document.createElement("div");
-              div.textContent = `${dish.num}: ${dish.name} - $${price.toFixed(2)}`;
-              menuDiv.appendChild(div);
-            });
-          }
-        });
-      }
     })
     .catch(error => {
       console.error("Error loading menu:", error);
