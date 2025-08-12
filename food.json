@@ -1,7 +1,7 @@
 [
     {
         "cat": "App",
-        "subcat": "Appitizers",
+        "subcat": "Apptizers",
         "dishes": [
             {
                 "num": "A1",
@@ -88,11 +88,11 @@
                 "name": "Barbecued Spare Ribs",
                 "sizes": [
                     {
-                        "size": "Small (5 Ribs)",
+                        "size": "Small",
                         "price": 9.50
                     },
                     {
-                        "size": "Large (10 Ribs)",
+                        "size": "Large",
                         "price": 15.50
                     }
                 ]
@@ -138,11 +138,11 @@
                 "name": "Wonton Soup",
                 "sizes": [
                     {
-                        "size": "Pint",
+                        "size": "Small",
                         "price": 3.25
                     },
                     {
-                        "size": "Quart",
+                        "size": "Large",
                         "price": 4.50
                     }
                 ]
@@ -152,11 +152,11 @@
                 "name": "Egg Drop Soup",
                 "sizes": [
                     {
-                        "size": "Pint",
+                        "size": "Small",
                         "price": 3.25
                     },
                     {
-                        "size": "Quart",
+                        "size": "Large",
                         "price": 4.50
                     }
                 ]
@@ -176,11 +176,11 @@
                 "name": "Wonton Egg Drop Soup",
                 "sizes": [
                     {
-                        "size": "Pint",
+                        "size": "Small",
                         "price": 3.95
                     },
                     {
-                        "size": "Quart",
+                        "size": "Large",
                         "price": 5.25
                     }
                 ]
@@ -190,11 +190,11 @@
                 "name": "Hot and Sour Soup",
                 "sizes": [
                     {
-                        "size": "Pint",
+                        "size": "Small",
                         "price": 3.95
                     },
                     {
-                        "size": "Quart",
+                        "size": "Large",
                         "price": 5.25
                     }
                 ]
@@ -223,8 +223,8 @@
     },
     {
         "cat": "R&N",
-        "subcat": "Rice",
-        "type": [
+        "subcat": "Fried Rice",
+        "dishes": [
             {
                 "num": "11",
                 "name": "Vegetable Fried Rice",
@@ -306,8 +306,8 @@
     },
     {
         "cat": "R&N",
-        "subcat": "Noodle",
-        "type": [
+        "subcat": "Lo Mein",
+        "dishes": [
             {
                 "num": "17",
                 "name": "Vegetable Lo Mein",
@@ -706,8 +706,8 @@
         ]
     },
     {
-        "cat": "Entree",
-        "subcat": "Fun",
+        "cat": "R&N",
+        "subcat": "Chow Fun or Mei Fun",
         "dishes": [
             {
                 "num": "89",

@@ -7,41 +7,89 @@ document.addEventListener("DOMContentLoaded", () => {
       menuDiv.innerHTML = ""; // Clear menu
 
       if (category === "App") {
-        const apps = data.filter(item => item.cat.toLowerCase() === "app");
+        const apps = data.filter(item => item.cat === "App");
         apps.forEach(item => {
-          if (item.sizes && Array.isArray(item.sizes)) {
-            item.sizes.forEach(sizeObj => {
-              const div = document.createElement("div");
-              div.textContent = `${item.num}: ${item.name} (${sizeObj.size}) - $${sizeObj.price.toFixed(2)}`;
-              menuDiv.appendChild(div);
+          const heading = document.createElement("h2");
+          heading.textContent = item.subcat;
+          heading.classList.add("subcat");
+          menuDiv.appendChild(heading);
+
+            item.dishes.forEach(dish => {
+              const dishDiv = document.createElement("div");
+              dishDiv.classList.add("menu-item");
+
+               // Dish name
+              const dishName = document.createElement("span");
+              dishName.classList.add("item-name");
+              dishName.textContent = `${dish.num}: ${dish.name}`;
+              dishDiv.appendChild(dishName);
+
+              // Small price
+                const smallPrice = document.createElement("span");
+                smallPrice.classList.add("price", "small");
+                const small = dish.sizes?.find(s => s.size === "Small")?.price
+                  ?? item.sizes?.find(s => s.size === "Small")?.price
+                  ?? "";
+                smallPrice.textContent = small ? `$${small.toFixed(2)}` : "";
+                dishDiv.appendChild(smallPrice);
+
+                // Large price
+                const largePrice = document.createElement("span");
+                largePrice.classList.add("price", "large");
+                const large = dish.sizes?.find(s => s.size === "Large")?.price
+                  ?? item.sizes?.find(s => s.size === "Large")?.price
+                  ?? dish.price
+                  ?? item.price
+                  ?? "";
+
+                largePrice.textContent = large ? `$${large.toFixed(2)}` : "";
+              dishDiv.appendChild(largePrice);
+
+              menuDiv.appendChild(dishDiv);
             });
-          } else {
-            const size = item.size ? item.size : "large";
-            const div = document.createElement("div");
-            div.textContent = `${item.num}: ${item.name} (${size}) - $${item.price.toFixed(2)}`;
-            menuDiv.appendChild(div);
-          }
         });
       }
       else if (category === "R&N") {
         const rice = data.filter(item => item.cat === "R&N");
         rice.forEach(item => {
-          if (item.type && Array.isArray(item.type)) {
-            item.type.forEach(ty => {
-              if (ty.sizes && Array.isArray(ty.sizes)) {
-                ty.sizes.forEach(sizeObj => {
-                  const div = document.createElement("div");
-                  div.textContent = `${ty.num}: ${ty.name} (${sizeObj.size}) - $${sizeObj.price.toFixed(2)}`;
-                  menuDiv.appendChild(div);
-                });
-              } else {
-                const size = ty.size ? ty.size : "large";
-                const div = document.createElement("div");
-                div.textContent = `${ty.num}: ${ty.name} (${size}) - $${ty.price.toFixed(2)}`;
-                menuDiv.appendChild(div);
-              }
+          const heading = document.createElement("h2");
+          heading.textContent = item.subcat;
+          heading.classList.add("subcat");
+          menuDiv.appendChild(heading);
+
+            item.dishes.forEach(dish => {
+              const dishDiv = document.createElement("div");
+              dishDiv.classList.add("menu-item");
+
+               // Dish name
+              const dishName = document.createElement("span");
+              dishName.classList.add("item-name");
+              dishName.textContent = `${dish.num}: ${dish.name}`;
+              dishDiv.appendChild(dishName);
+
+              // Small price
+                const smallPrice = document.createElement("span");
+                smallPrice.classList.add("price", "small");
+                const small = dish.sizes?.find(s => s.size === "Small")?.price
+                  ?? item.sizes?.find(s => s.size === "Small")?.price
+                  ?? "";
+                smallPrice.textContent = small ? `$${small.toFixed(2)}` : "";
+                dishDiv.appendChild(smallPrice);
+
+                // Large price
+                const largePrice = document.createElement("span");
+                largePrice.classList.add("price", "large");
+                const large = dish.sizes?.find(s => s.size === "Large")?.price
+                  ?? item.sizes?.find(s => s.size === "Large")?.price
+                  ?? dish.price
+                  ?? item.price
+                  ?? "";
+
+                largePrice.textContent = large ? `$${large.toFixed(2)}` : "";
+              dishDiv.appendChild(largePrice);
+
+              menuDiv.appendChild(dishDiv);
             });
-          }
         });
       }
       else if (category === "lunch") {
