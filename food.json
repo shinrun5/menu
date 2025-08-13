@@ -1049,7 +1049,7 @@
             },
             {
                 "num": "C25",
-                "name": "beef or Shrimp Hunan Style"
+                "name": "Beef or Shrimp Hunan Style"
             },
             {
                 "num": "C26",
@@ -1058,7 +1058,7 @@
         ]
     },
     {
-        "cat": "specials",
+        "cat": "Chef's Specials",
         "price": 15.95,
         "dishes": [
             {

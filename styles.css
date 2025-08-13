@@ -99,32 +99,74 @@ img.logo {
 }
 
 .menu-item {
-  display: grid;
-  grid-template-columns: 1fr 60px 60px; /* Name | Small | Large */
-  gap: 10px;
-  align-items: center;
+    display: grid;
+    grid-template-columns: 1fr 60px 60px;
+    /* Name | Small | Large */
+    gap: 10px;
+    align-items: center;
 }
 
 .item-name {
-  font-weight: bold;
+    font-weight: bold;
 }
 
 .price {
-  text-align: right;
+    text-align: right;
 }
 
 .chinese-menu-border {
-  padding: 20px;
-  margin: 20px auto;
-  max-width: 800px;
-  background-color: #fff8e1; /* light cream background */
+    padding: 20px;
+    margin: 20px auto;
+    max-width: 800px;
+    background-color: #fff8e1;
+    /* light cream background */
 
-  /* must have width + style for border-image to display */
-  border: 40px solid transparent;
+    /* must have width + style for border-image to display */
+    border: 40px solid transparent;
 
-  /* border image settings */
-  border-image-source: url('pics/border.png');
-  border-image-slice: 120; /* adjust to match your image’s corner thickness */
-  border-image-repeat: round; /* repeat pattern around edges */
+    /* border image settings */
+    border-image-source: url('pics/border.png');
+    border-image-slice: 120;
+    /* adjust to match your image’s corner thickness */
+    border-image-repeat: round;
+    /* repeat pattern around edges */
 }
 
+.main-border {
+    padding: 20px;
+    margin: 20px auto;
+    max-width: 800px;
+    background-color: #fff8e1;
+    /* light cream background */
+
+    border: 40px solid transparent;
+
+    /* border image settings */
+    border-image-source: url('pics/border.png');
+    border-image-slice: 120;
+    /* adjust to match your image’s corner thickness */
+    border-image-repeat: round;
+}
+
+.payment {
+    max-width: 200;
+    max-height: 500;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+}
+
+.map{
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.description
+{
+  font-size: 0.95em;
+  color: #555;         
+  margin-top: 0;        
+  margin-bottom: 12px;
+  line-height: 1.3em;   
+}
