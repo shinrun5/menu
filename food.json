@@ -402,9 +402,8 @@
     },
     {
         "num": "31",
-        "name": "Sweet and Sour Chicken",
         "cat": "Entree",
-        "subcat": "S&S",
+        "subcat": "Sweet & Sour",
         "sizes": [
             {
                 "size": "Small",

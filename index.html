@@ -9,91 +9,95 @@
 </head>
 
 <body>
-    <div class = "main-border">
-    <img class="logo" src="pics/Logo.png" alt="New China House logo"></img>
-    <nav class="navbar">
-        <ul>
-            <li><a href="appetizers.html">Appetizers</a></li>
-            <li><a href="lunch.html">Lunch Specials</a></li>
-            <li><a href="combo.html">Combination Plates</a></li>
-            <li><a href="entree.html">Entrees</a></li>
-            <li><a href="specialties.html">Chef's Specialties</a></li>
-        </ul>
-    </nav>
+    <div class="main-border">
+        <img class="logo" src="pics/Logo.png" alt="New China House logo"></img>
+        <nav class="navbar">
+            <ul>
+                <li><a href="appetizers.html">Appetizers</a></li>
+                <li><a href="lunch.html">Lunch Specials</a></li>
+                <li><a href="combo.html">Combination Plates</a></li>
+                <li><a href="rice.html">Fried Rice and Noodles</a></li>
+                <li><a href="entree.html">Entrees</a></li>
+                <li><a href="specialties.html">Chef's Specialties</a></li>
+            </ul>
+        </nav>
 
-    <main>
-        <div id="info">357 Applgarth Road, <br>
-            Monroe, NJ 08831 <br>
-            (609) 395-9024 <br>
-            (609) 395-9025 <br>
-        </div>
-
-
-        <img id="deliveryImage" src="pics/Delivery.png" alt="Delivery" class="scroll-img">
-
-
-        <div id="popupOverlay" class="popup-overlay">
-            <div class="popup-content">
-                <h2>Delivery</h2>
-                <p>We do deliveries. <br> ONLY THREE EXTRA DOLLARS FOR DELIVERIES</p>
-                <button id="closePopupBtn">Close</button>
+        <main>
+            <div id="info">357 Applgarth Road, <br>
+                Monroe, NJ 08831 <br>
+                (609) 395-9024 <br>
+                (609) 395-9025 <br>
             </div>
-        </div>
 
-       <div class = "map">
-        <h3>Our Location</h3>
-        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3041.761339582267!2d-74.47230428882419!3d40.325453971335286!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89c3d9177d7473b9%3A0x45c523df88c488ed!2sNew%20China%20House!5e0!3m2!1sen!2sus!4v1754543095168!5m2!1sen!2sus" width="700" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade" class ="map"></iframe>
-       </div>
+            <div class="spacer"></div>
 
-       <div class="spacer"></div>
+            <div id="info">Open 6 Days A Week <br>
+                Monday to Saturdagy : 10:30 AM - 9 PM <br>
+                Sunday Closed!
+            </div>
 
-       <div id = "info">Open 6 Days A Week <br>
-        Monday to Saturdagy : 10:30 AM - 9 PM <br>
-        Sunday Closed!
-       </div>
 
-       <div class = "spacer"></div>
+            <img id="deliveryImage" src="pics/Delivery.png" alt="Delivery" class="scroll-img">
 
-       <img src="pics/payment.png" alt="Payment Option" class = payment></img>
 
-        <script>
-            let imageHidden = false;
-            let popupShown = false;
+            <div id="popupOverlay" class="popup-overlay">
+                <div class="popup-content">
+                    <h2>Delivery</h2>
+                    <p>We do deliveries. <br> ONLY THREE EXTRA DOLLARS FOR DELIVERIES</p>
+                    <button id="closePopupBtn">Close</button>
+                </div>
+            </div>
 
-            const img = document.getElementById('deliveryImage');
-            const closePopupBtn = document.getElementById('closePopupBtn');
-            const popupOverlay = document.getElementById('popupOverlay');
+            <div class="map">
+                <h3>Our Location</h3>
+                <iframe
+                    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3041.761339582267!2d-74.47230428882419!3d40.325453971335286!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89c3d9177d7473b9%3A0x45c523df88c488ed!2sNew%20China%20House!5e0!3m2!1sen!2sus!4v1754543095168!5m2!1sen!2sus"
+                    width="700" height="450" style="border:0;" allowfullscreen="" loading="lazy"
+                    referrerpolicy="no-referrer-when-downgrade" class="map"></iframe>
+            </div>
 
-            window.addEventListener('scroll', () => {
-                const scrollY = window.scrollY;
-                const maxLeft = window.innerWidth - img.offsetWidth;
-                const newLeft = Math.min(scrollY, maxLeft);
+            <div class="spacer"></div>
 
-                img.style.left = newLeft + 'px';
+            <img src="pics/payment.png" alt="Payment Option" class=payment></img>
 
-                if (newLeft >= maxLeft && !imageHidden) {
-                    img.style.opacity = '0';
-                    imageHidden = true;
+            <script>
+                let imageHidden = false;
+                let popupShown = false;
 
-                    if (!popupShown) {
-                        popupOverlay.classList.add('show-popup');
-                        popupShown = true;
+                const img = document.getElementById('deliveryImage');
+                const closePopupBtn = document.getElementById('closePopupBtn');
+                const popupOverlay = document.getElementById('popupOverlay');
+
+                window.addEventListener('scroll', () => {
+                    const scrollY = window.scrollY;
+                    const maxLeft = window.innerWidth - img.offsetWidth;
+                    const newLeft = Math.min(scrollY, maxLeft);
+
+                    img.style.left = newLeft + 'px';
+
+                    if (newLeft >= maxLeft && !imageHidden) {
+                        img.style.opacity = '0';
+                        imageHidden = true;
+
+                        if (!popupShown) {
+                            popupOverlay.classList.add('show-popup');
+                            popupShown = true;
+                        }
                     }
-                }
-            });
+                });
 
-            closePopupBtn.addEventListener('click', () => {
-                popupOverlay.classList.remove('show-popup');
-            });
-
-            popupOverlay.addEventListener('click', (event) => {
-                if (event.target === popupOverlay) {
+                closePopupBtn.addEventListener('click', () => {
                     popupOverlay.classList.remove('show-popup');
-                }
-            });
-        </script>
+                });
 
-    </main>
+                popupOverlay.addEventListener('click', (event) => {
+                    if (event.target === popupOverlay) {
+                        popupOverlay.classList.remove('show-popup');
+                    }
+                });
+            </script>
+
+        </main>
     </div>
 </body>
 
