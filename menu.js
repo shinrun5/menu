@@ -85,6 +85,11 @@ document.addEventListener("DOMContentLoaded", () => {
               ?? item.price
               ?? "";
 
+            if (dish.spice !== undefined)
+            {
+              dishDiv.classList.add("spice");
+            }
+
             largePrice.textContent = large ? `$${large.toFixed(2)}` : "";
             dishDiv.appendChild(largePrice);
 
@@ -99,7 +104,7 @@ document.addEventListener("DOMContentLoaded", () => {
           heading.textContent = item.cat;
           heading.classList.add("subcat");
           menuDiv.appendChild(heading);
-          
+
           item.dishes.forEach(dish => {
             const dishDiv = document.createElement("div");
             dishDiv.classList.add("menu-item");
@@ -116,9 +121,13 @@ document.addEventListener("DOMContentLoaded", () => {
 
             const Price = document.createElement("span");
             Price.classList.add("price");
-            const price = dish.price 
-            ?? item.price 
-            ?? "";
+            const price = dish.price
+              ?? item.price
+              ?? "";
+
+            if (dish.spice !== undefined) {
+              dishDiv.classList.add("spice");
+            }
 
             Price.textContent = price ? `$${price.toFixed(2)}` : "";
             dishDiv.appendChild(Price);
@@ -134,7 +143,7 @@ document.addEventListener("DOMContentLoaded", () => {
           heading.textContent = item.cat;
           heading.classList.add("subcat");
           menuDiv.appendChild(heading);
-          
+
           item.dishes.forEach(dish => {
             const dishDiv = document.createElement("div");
             dishDiv.classList.add("menu-item");
@@ -151,9 +160,13 @@ document.addEventListener("DOMContentLoaded", () => {
 
             const Price = document.createElement("span");
             Price.classList.add("price");
-            const price = dish.Price 
-            ?? item.price 
-            ?? "";
+            const price = dish.Price
+              ?? item.price
+              ?? "";
+
+            if (dish.spice !== undefined) {
+              dishDiv.classList.add("spice");
+            }
 
             Price.textContent = price ? `$${price.toFixed(2)}` : "";
             dishDiv.appendChild(Price);
@@ -169,7 +182,7 @@ document.addEventListener("DOMContentLoaded", () => {
           heading.textContent = item.cat;
           heading.classList.add("subcat");
           menuDiv.appendChild(heading);
-          
+
           item.dishes.forEach(dish => {
             const dishDiv = document.createElement("div");
             dishDiv.classList.add("menu-item");
@@ -186,8 +199,8 @@ document.addEventListener("DOMContentLoaded", () => {
 
             const Price = document.createElement("span");
             Price.classList.add("price");
-            const price = item.price 
-            ?? "";
+            const price = item.price
+              ?? "";
 
             Price.textContent = price ? `$${price.toFixed(2)}` : "";
             dishDiv.appendChild(Price);
@@ -195,6 +208,10 @@ document.addEventListener("DOMContentLoaded", () => {
             const descrip = document.createElement("span");
             descrip.classList.add("description")
             descrip.textContent = dish.description;
+
+            if (dish.spice !== undefined) {
+              dishDiv.classList.add("spice");
+            }
 
             dishDiv.appendChild(descrip);
 
@@ -239,6 +256,10 @@ document.addEventListener("DOMContentLoaded", () => {
                 ?? dish.price
                 ?? item.price
                 ?? "";
+
+              if (dish.spice !== undefined) {
+                dishDiv.classList.add("spice");
+              }
 
               largePrice.textContent = large ? `$${large.toFixed(2)}` : "";
               dishDiv.appendChild(largePrice);

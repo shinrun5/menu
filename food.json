@@ -188,6 +188,7 @@
             {
                 "num": "6",
                 "name": "Hot and Sour Soup",
+                "spice" : "Yes",
                 "sizes": [
                     {
                         "size": "Small",
@@ -473,11 +474,13 @@
             },
             {
                 "num": "41",
-                "name": "Chicken with Onion and Curry Sauce"
+                "name": "Chicken with Onion and Curry Sauce",
+                "spice" : "Yes"
             },
             {
                 "num": "42",
-                "name": "Kung Pao Chicken with Peanuts"
+                "name": "Kung Pao Chicken with Peanuts",
+                "spice" : "Yes"
             },
             {
                 "num": "43",
@@ -485,19 +488,23 @@
             },
             {
                 "num": "44",
-                "name": "Szechuan Chicken"
+                "name": "Szechuan Chicken",
+                "spice" : "Yes"
             },
             {
                 "num": "45",
-                "name": "Chicken with Garlic Sauce"
+                "name": "Chicken with Garlic Sauce",
+                "spice" : "Yes"
             },
             {
                 "num": "46",
-                "name": "Hunan Chicken"
+                "name": "Hunan Chicken",
+                "spice" : "Yes"
             },
             {
                 "num": "47",
-                "name": "Hot and Spicy Chicken"
+                "name": "Hot and Spicy Chicken",
+                "spice" : "Yes"
             }
         ]
     },
@@ -549,7 +556,8 @@
             },
             {
                 "num": "56",
-                "name": "Beef with Curry Sauce"
+                "name": "Beef with Curry Sauce",
+                "spice" : "Yes"
             },
             {
                 "num": "57",
@@ -557,19 +565,23 @@
             },
             {
                 "num": "58",
-                "name": "Szechuan Beef"
+                "name": "Szechuan Beef",
+                "spice" : "Yes"
             },
             {
                 "num": "59",
-                "name": "Beef with Garlic Sauce"
+                "name": "Beef with Garlic Sauce",
+                "spice" : "Yes"
             },
             {
                 "num": "60",
-                "name": "Hunan Beef"
+                "name": "Hunan Beef",
+                "spice" : "Yes"
             },
             {
                 "num": "61",
-                "name": "Hot and Spicy Beef"
+                "name": "Hot and Spicy Beef",
+                "spice" : "Yes"
             }
         ]
     },
@@ -605,7 +617,8 @@
             },
             {
                 "num": "67",
-                "name": "Shrimp with Onion and Curry Sauce"
+                "name": "Shrimp with Onion and Curry Sauce",
+                "spice" : "Yes"
             },
             {
                 "num": "68",
@@ -621,19 +634,23 @@
             },
             {
                 "num": "71",
-                "name": "Szechuan Shrimp"
+                "name": "Szechuan Shrimp",
+                "spice" : "Yes"
             },
             {
                 "num": "72",
-                "name": "Shrimp with Garlic Sauce"
+                "name": "Shrimp with Garlic Sauce",
+                "spice" : "Yes"
             },
             {
                 "num": "73",
-                "name": "Hunan Shrimp"
+                "name": "Hunan Shrimp",
+                "spice" : "Yes"
             },
             {
                 "num": "74",
-                "name": "Hot and Spicy Shrimp"
+                "name": "Hot and Spicy Shrimp",
+                "spice" : "Yes"
             }
         ]
     },
@@ -669,15 +686,18 @@
             },
             {
                 "num": "82",
-                "name": "Szechuan Roast Pork"
+                "name": "Szechuan Roast Pork",
+                "spice" : "Yes"
             },
             {
                 "num": "83",
-                "name": "Hunan Roast Pork"
+                "name": "Hunan Roast Pork",
+                "spice" : "Yes"
             },
             {
                 "num": "84",
-                "name": "Roast Prok w. Garlic Sauce"
+                "name": "Roast Prok w. Garlic Sauce",
+                "spice" : "Yes"
             }
         ]
     },
@@ -741,6 +761,7 @@
             {
                 "num": "95",
                 "name": "Singapore Mei Fun",
+                "spice" : "Yes",
                 "price": 11.50
             }
         ]
@@ -791,19 +812,23 @@
             },
             {
                 "num": "104",
-                "name": "Broccoli with Garlic Sauce"
+                "name": "Broccoli with Garlic Sauce",
+                "spice" : "Yes"
             },
             {
                 "num": "105",
-                "name": "Szechuan Bean Curd"
+                "name": "Szechuan Bean Curd",
+                "spice" : "Yes"
             },
             {
                 "num": "106",
-                "name": "Eggplant with Garlic Sauce"
+                "name": "Eggplant with Garlic Sauce",
+                "spice" : "Yes"
             },
             {
                 "num": "107",
-                "name": "General Tso's Bean Curd"
+                "name": "General Tso's Bean Curd",
+                "spice" : "Yes"
             }
         ]
     },
@@ -872,11 +897,13 @@
             },
             {
                 "num": "L10",
-                "name": "Hot and Spicy Beef or Chicken"
+                "name": "Hot and Spicy Beef or Chicken",
+                "spice" : "Yes"
             },
             {
                 "num": "L11",
-                "name": "Kung Pao Chicken with Peanuts"
+                "name": "Kung Pao Chicken with Peanuts",
+                "spice" : "Yes"
             },
             {
                 "num": "L12",
@@ -896,11 +923,13 @@
             },
             {
                 "num": "L16",
-                "name": "Beef or Chicken with Szechuan Sauce"
+                "name": "Beef or Chicken with Szechuan Sauce",
+                "spice" : "Yes"
             },
             {
                 "num": "L17",
-                "name": "Vegetables in Garlic Sauce with Choice of Chicken or Shrimp or Beef or Roast Pork"
+                "name": "Vegetables in Garlic Sauce with Choice of Chicken or Shrimp or Beef or Roast Pork",
+                "spice" : "Yes"
             },
             {
                 "num": "L18",
@@ -912,7 +941,8 @@
             },
             {
                 "num": "L20",
-                "name": "General Tso's Chicken"
+                "name": "General Tso's Chicken",
+                "spice" : "Yes"
             },
             {
                 "num": "L21",
@@ -920,7 +950,8 @@
             },
             {
                 "num": "L22",
-                "name": "Chicken with Onion and Curry Sauce"
+                "name": "Chicken with Onion and Curry Sauce",
+                "spice" : "Yes"
             },
             {
                 "num": "L23",
@@ -928,7 +959,8 @@
             },
             {
                 "num": "L24",
-                "name": "Broccoli with Garlic Sauce"
+                "name": "Broccoli with Garlic Sauce",
+                "spice" : "Yes"
             },
             {
                 "num": "L25",
@@ -940,7 +972,8 @@
             },
             {
                 "num": "L28",
-                "name": "General Tso's Bean Curd"
+                "name": "General Tso's Bean Curd",
+                "spice" : "Yes"
             }
         ]
     },
@@ -994,19 +1027,23 @@
             },
             {
                 "num": "C12",
-                "name": "Chicken with Garlic Sauce"
+                "name": "Chicken with Garlic Sauce",
+                "spice" : "Yes"
             },
             {
                 "num": "C13",
-                "name": "Shrimp with Garlic Sauce"
+                "name": "Shrimp with Garlic Sauce",
+                "spice" : "Yes"
             },
             {
                 "num": "C14",
-                "name": "Beef with Garlic Sauce"
+                "name": "Beef with Garlic Sauce",
+                "spice" : "Yes"
             },
             {
                 "num": "C15",
-                "name": "General Tso's Chicken"
+                "name": "General Tso's Chicken",
+                "spice" : "Yes"
             },
             {
                 "num": "C16",
@@ -1040,19 +1077,23 @@
             },
             {
                 "num": "C23",
-                "name": "Chicken with Szechuan Sauce"
+                "name": "Chicken with Szechuan Sauce",
+                "spice" : "Yes"
             },
             {
                 "num": "C24",
-                "name": "Chicken with Onion and Curry Sauce"
+                "name": "Chicken with Onion and Curry Sauce",
+                "spice" : "Yes"
             },
             {
                 "num": "C25",
-                "name": "Beef or Shrimp Hunan Style"
+                "name": "Beef or Shrimp Hunan Style",
+                "spice" : "Yes"
             },
             {
                 "num": "C26",
-                "name": "Hot and Spicy Beef or Shrimp"
+                "name": "Hot and Spicy Beef or Shrimp",
+                "spice" : "Yes"
             }
         ]
     },
@@ -1081,7 +1122,8 @@
             },
             {
                 "num": "S5",
-                "name": "General Tso's Chicken"
+                "name": "General Tso's Chicken",
+                "spice" : "Yes"
             },
             {
                 "num": "S6",
@@ -1089,17 +1131,20 @@
             },
             {
                 "num": "S7",
-                "name": "General Tso's Chicken"
+                "name": "General Tso's Chicken",
+                "spice" : "Yes"
             },
             {
                 "num": "S8",
                 "name": "Dragon and Phoenix",
-                "description": "General Tso's Chicken and Shrimp with Mixed Vegetables"
+                "description": "General Tso's Chicken and Shrimp with Mixed Vegetables",
+                "spice" : "Yes"
             },
             {
                 "num": "S9",
                 "name": "Triple Delight with Garlic Sauce",
-                "description": "Chicken, Shrimp and Beef with Mixed Vegetables in Garlic Sauce"
+                "description": "Chicken, Shrimp and Beef with Mixed Vegetables in Garlic Sauce",
+                "spice" : "Yes"
             },
             {
                 "num": "S10",
@@ -1112,11 +1157,13 @@
             },
             {
                 "num": "S12",
-                "name": "Chicken in Orange Flavor"
+                "name": "Chicken in Orange Flavor",
+                "spice" : "Yes"
             },
             {
                 "num": "S13",
-                "name": "Beef in Orange Flavor"
+                "name": "Beef in Orange Flavor",
+                "spice" : "Yes"
             },
             {
                 "num": "S14",
@@ -1135,11 +1182,13 @@
             },
             {
                 "num": "S17",
-                "name": "Shrimp and Chicken Szechuan Style"
+                "name": "Shrimp and Chicken Szechuan Style",
+                "spice" : "Yes"
             },
             {
                 "num": "S18",
-                "name": "Scallop with Beef in Garlic Sauce"
+                "name": "Scallop with Beef in Garlic Sauce",
+                "spice" : "Yes"
             },
             {
                 "num": "S19",
@@ -1149,12 +1198,14 @@
             {
                 "num": "S20",
                 "name": "Mongolian Beef",
-                "description": "Beef Sauteed with Pepper, Carrot, Mushroom, Bamboo Shoot in Spicy Brown Sauce"
+                "description": "Beef Sauteed with Pepper, Carrot, Mushroom, Bamboo Shoot in Spicy Brown Sauce",
+                "spice" : "Yes"
             },
             {
                 "num": "S21",
                 "name": "Hunan Triple Delight",
-                "description": "Chicken, Beef and Shrimp with Mixed Vegetables in Hunan Sauce"
+                "description": "Chicken, Beef and Shrimp with Mixed Vegetables in Hunan Sauce",
+                "spice" : "Yes"
             }
         ]
     }
