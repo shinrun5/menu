@@ -1,6 +1,5 @@
 body {
-    height: 200vh;
-    /* enough scroll room */
+    background-color: #fff8e1;
     margin: 0;
     overflow-x: hidden;
 }
@@ -169,7 +168,6 @@ img.logo {
     border-image-slice: 120;
     /* adjust to match your image’s corner thickness */
     border-image-repeat: round;
-    /* repeat pattern around edges */
 }
 
 .main-border {
@@ -215,3 +213,4 @@ img.logo {
 {
     color: red;
 }
+
