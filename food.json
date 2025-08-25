@@ -835,6 +835,7 @@
     {
         "cat": "Entree",
         "subcat": "Healthy Dishes",
+        "description": "All Steamed with Sauce on the Side \nServed with Choice of White Rice or Brown Rice",
         "dishes": [
             {
                 "num": "H1",
@@ -866,6 +867,7 @@
     {
         "cat": "Lunch",
         "price": 8.25,
+        "description": "Monday - Saturday: From 11:00 AM - 3:00 PM \nEach Order Served with Pork Fried Rice, Vegetable Fried Rice or White Rice \nAdditional $0.80 for Wonton Soup, Egg Drop Soup or Egg Roll",
         "dishes": [
             {
                 "num": "L1",
@@ -980,6 +982,7 @@
     {
         "cat": "Combo",
         "price": 9.95,
+        "description": "Each Order Served with an Egg Roll and Choice of Rice from Pork Fried Rice, Vegetable Fried Rice or White Rice \nAdditional $0.80 for Wonton Soup, Egg Drop Soup",
         "dishes": [
             {
                 "num": "C1",
