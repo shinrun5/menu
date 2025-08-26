@@ -85,8 +85,7 @@ document.addEventListener("DOMContentLoaded", () => {
               ?? item.price
               ?? "";
 
-            if (dish.spice !== undefined)
-            {
+            if (dish.spice !== undefined) {
               dishDiv.classList.add("spice");
             }
 
@@ -98,12 +97,17 @@ document.addEventListener("DOMContentLoaded", () => {
         });
       }
       else if (category === "lunch") {
-        const lunch = data.filter(item => item.cat === "Lunch");
+        const lunch = data.filter(item => item.cat === "Special");
         lunch.forEach(item => {
           const heading = document.createElement("h2");
-          heading.textContent = item.cat;
+          heading.textContent = item.subcat;
           heading.classList.add("subcat");
           menuDiv.appendChild(heading);
+          const desc = document.createElement("p");
+          desc.textContent = item.description;
+          desc.classList.add("Description");
+          menuDiv.appendChild(desc);
+
 
           item.dishes.forEach(dish => {
             const dishDiv = document.createElement("div");
@@ -143,6 +147,10 @@ document.addEventListener("DOMContentLoaded", () => {
           heading.textContent = item.cat;
           heading.classList.add("subcat");
           menuDiv.appendChild(heading);
+          const desc = document.createElement("p");
+          desc.textContent = item.description;
+          desc.classList.add("Description");
+          menuDiv.appendChild(desc);
 
           item.dishes.forEach(dish => {
             const dishDiv = document.createElement("div");

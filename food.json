@@ -865,7 +865,8 @@
         ]
     },
     {
-        "cat": "Lunch",
+        "cat": "Special",
+        "subcat": "Lunch Special",
         "price": 8.25,
         "description": "Monday - Saturday: From 11:00 AM - 3:00 PM \nEach Order Served with Pork Fried Rice, Vegetable Fried Rice or White Rice \nAdditional $0.80 for Wonton Soup, Egg Drop Soup or Egg Roll",
         "dishes": [
@@ -976,6 +977,39 @@
                 "num": "L28",
                 "name": "General Tso's Bean Curd",
                 "spice" : "Yes"
+            }
+        ]
+    },
+    {
+        "cat": "Special",
+        "subcat": "Whole Day Specials",
+        "description": "Servied with Pork Fried Rice, Vegetable Fried Rice, White Rice or French Fries",
+        "price": 9.65,
+        "dishes": [
+            {
+                "num": "W1",
+                "name": "Chicken Wings"
+            },
+            {
+                "num": "W2",
+                "name": "Half Fried Chicken"
+            },
+            {
+                "num": "W3",
+                "name": "Spare Rib Tips"
+            },
+            {
+                "num": "W4",
+                "name": "Fried Baby Shrimp"
+            },
+            {
+                "num": "W5",
+                "name": "Fried Jumbo Shrimp",
+                "price": 10.65
+            },
+            {
+                "num": "W6",
+                "name": "Chicken on Stick"
             }
         ]
     },
