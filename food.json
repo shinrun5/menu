@@ -1245,5 +1245,16 @@
                 "spice" : "Yes"
             }
         ]
+    },
+
+    {
+        "cat": "Catering",
+        "dishes": [
+            {
+                "num": "1",
+                "name": "Chicken with Broccoli", 
+                "price": 47
+            },
+        ]
     }
 ]
