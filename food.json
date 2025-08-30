@@ -391,7 +391,7 @@
             },
             {
                 "num": "23",
-                "name": "House Special Fried Rice",
+                "name": "House Special Lo Mein",
                 "sizes": [
                     {
                         "size": "Large",
@@ -1249,37 +1249,121 @@
 
     {
         "cat": "Catering",
+        "subcat": "Party Trays",
+        "description": "Feed 6-7 per Tray, Please Call for custom Trays",
         "dishes": [
             {
-                "num": "1",
+                "num": "P1",
                 "name": "Chicken with Broccoli", 
                 "price": 47
             },
             {
-                "num": "2",
+                "num": "P2",
                 "name": "Beef with Broccoli", 
                 "price": 47
             },
             {
-                "num": "3",
+                "num": "P3",
                 "name": "Roast Pork with Broccoli", 
                 "price": 47
             },
             {
-                "num": "4",
+                "num": "P4",
                 "name": "Shrimp with Broccoli", 
                 "price": 51.80
             },
             {
-                "num": "5",
+                "num": "P5",
                 "name": "Shrimp with Mixed Vegetables", 
                 "price": 51.80
             },
             {
-                "num": "6",
+                "num": "P6",
                 "name": "General Tso's Chicken", 
                 "price": 63.80
             },
+            {
+                "num": "P7",
+                "name": "Mixed Vegetables", 
+                "price": 43
+            },
+            {
+                "num": "P8",
+                "name": "Broccoli with Garlic Sauce", 
+                "price": 43
+            },
+            {
+                "num": "P9",
+                "name": "House Special Mei Fun", 
+                "price": 46
+            },
+            {
+                "num": "P10",
+                "name": "Chicken Lo Mein", 
+                "price": 38
+            },
+            {
+                "num": "P11",
+                "name": "Pork Lo Mein", 
+                "price": 38
+            },
+            {
+                "num": "P12",
+                "name": "Shrimp Lo Mein", 
+                "price": 42
+            },
+            {
+                "num": "P13",
+                "name": "Beef Lo Mein", 
+                "price": 42
+            },
+            {
+                "num": "P14",
+                "name": "House Special Lo Mein",
+                "price": 46
+            },
+            {
+                "num": "P15",
+                "name": "Chicken Fried Rice", 
+                "price": 38
+            },
+            {
+                "num": "P16",
+                "name": "Pork Fried Rice", 
+                "price": 38
+            },
+            {
+                "num": "P17",
+                "name": "Shrimp Fried Rice", 
+                "price": 38
+            },
+            {
+                "num": "P18",
+                "name": "Beef Fried Rice", 
+                "price": 38
+            },
+            {
+                "num": "P19",
+                "name": "House Special Fried Rice",
+                "price": 42
+            },
+            {
+                "num": "P20",
+                "name": "Pepper Steak",
+                "price": 47
+            },
+            {
+                "num": "P21",
+                "name": "Chicken with Mixed Vegetables",
+                "price": 47
+            },
+            {
+                "num": "P22",
+                "name": "Sesame Chicken",
+                "price": 63.80
+            }
+            
+
         ]
     }
 ]

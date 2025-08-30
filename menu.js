@@ -278,6 +278,51 @@ document.addEventListener("DOMContentLoaded", () => {
           }
         });
       }
+      else if (category == "Catering")
+      {
+        const lunch = data.filter(item => item.cat === "Catering");
+        lunch.forEach(item => {
+          const heading = document.createElement("h2");
+          heading.textContent = item.subcat;
+          heading.classList.add("subcat");
+          menuDiv.appendChild(heading);
+          const desc = document.createElement("p");
+          desc.textContent = item.description;
+          desc.classList.add("Description");
+          menuDiv.appendChild(desc);
+
+
+          item.dishes.forEach(dish => {
+            const dishDiv = document.createElement("div");
+            dishDiv.classList.add("menu-item");
+
+            // Dish name
+            const dishName = document.createElement("span");
+            dishName.classList.add("item-name");
+            dishName.textContent = `${dish.num}: ${dish.name}`;
+            dishDiv.appendChild(dishName);
+
+            const space = document.createElement("span");
+            space.classList.add("price");
+            dishDiv.appendChild(space);
+
+            const Price = document.createElement("span");
+            Price.classList.add("price");
+            const price = dish.price
+              ?? item.price
+              ?? "";
+
+            if (dish.spice !== undefined) {
+              dishDiv.classList.add("spice");
+            }
+
+            Price.textContent = price ? `$${price.toFixed(2)}` : "";
+            dishDiv.appendChild(Price);
+
+            menuDiv.appendChild(dishDiv);
+          });
+        });
+      }
     })
     .catch(error => {
       console.error("Error loading menu:", error);
