@@ -59,50 +59,51 @@
                 </div>
             </div>
 
-           <div class="spacer"></div>
-
-            </div>
-
             <div class="spacer"></div>
 
-            <script>
-                let imageHidden = false;
-                let popupShown = false;
+    </div>
 
-                const img = document.getElementById('deliveryImage');
-                const closePopupBtn = document.getElementById('closePopupBtn');
-                const popupOverlay = document.getElementById('popupOverlay');
+    <div class="spacer"></div>
 
-                window.addEventListener('scroll', () => {
-                    const scrollY = window.scrollY;
-                    const maxLeft = window.innerWidth - img.offsetWidth;
-                    const newLeft = Math.min(scrollY, maxLeft);
+    <script>
+        let imageHidden = false;
+        let popupShown = false;
 
-                    img.style.left = newLeft + 'px';
+        const img = document.getElementById('deliveryImage');
+        const closePopupBtn = document.getElementById('closePopupBtn');
+        const popupOverlay = document.getElementById('popupOverlay');
 
-                    if (newLeft >= maxLeft && !imageHidden) {
-                        img.style.opacity = '0';
-                        imageHidden = true;
+        window.addEventListener('scroll', () => {
+            const maxScroll = document.body.scrollHeight - window.innerHeight;
+            const progress = window.scrollY / maxScroll;  // 0 → 1 as you scroll down
 
-                        if (!popupShown) {
-                            popupOverlay.classList.add('show-popup');
-                            popupShown = true;
-                        }
-                    }
-                });
+            const maxLeft = window.innerWidth - img.offsetWidth;
+            img.style.left = (progress * maxLeft) + 'px';
 
-                closePopupBtn.addEventListener('click', () => {
-                    popupOverlay.classList.remove('show-popup');
-                });
+            // When it reaches the right edge, fade out + show popup
+            if (progress >= 1 && !imageHidden) {
+                img.style.opacity = '0';
+                imageHidden = true;
 
-                popupOverlay.addEventListener('click', (event) => {
-                    if (event.target === popupOverlay) {
-                        popupOverlay.classList.remove('show-popup');
-                    }
-                });
-            </script>
+                if (!popupShown) {
+                    popupOverlay.classList.add('show-popup');
+                    popupShown = true;
+                }
+            }
+        });
 
-        </main>
+        closePopupBtn.addEventListener('click', () => {
+            popupOverlay.classList.remove('show-popup');
+        });
+
+        popupOverlay.addEventListener('click', (event) => {
+            if (event.target === popupOverlay) {
+                popupOverlay.classList.remove('show-popup');
+            }
+        });
+    </script>
+
+    </main>
     </div>
 </body>
 
