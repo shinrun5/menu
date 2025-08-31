@@ -56,10 +56,11 @@ img.logo {
     position: fixed;
     top: 30%;
     left: 0;
-    width: 150px;
+    width: 100px;
     transition: transform 0.1s ease-out;
     pointer-events: none;
 }
+
 
 .popup-overlay {
     display: none;
