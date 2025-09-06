@@ -15,27 +15,27 @@
             },
             {
                 "num": "A3",
-                "name": "Spring Roll (2 pieces)",
+                "name": "Spring Roll (2)",
                 "price": 2.95
             },
             {
                 "num": "A4",
-                "name": "Chicken on Stick",
+                "name": "Chicken on Stick (4)",
                 "price": 7.25
             },
             {
                 "num": "A5",
-                "name": "Beef on Stick",
+                "name": "Beef on Stick (4)",
                 "price": 7.25
             },
             {
                 "num": "A7",
-                "name": "Fried Wontons (10 pieces)",
+                "name": "Fried Wontons (10)",
                 "price": 3.95
             },
             {
                 "num": "A8",
-                "name": "Crab Rangoon (8 pieces)",
+                "name": "Crab Rangoon (8)",
                 "price": 6.25
             },
             {
@@ -60,27 +60,27 @@
             },
             {
                 "num": "A13",
-                "name": "Fried Baby Shrimp (15 shrimps)",
+                "name": "Fried Baby Shrimp (15)",
                 "price": 6.95
             },
             {
                 "num": "A14",
-                "name": "Fried Jumbo Shrimp (5 shrimps)",
+                "name": "Fried Jumbo Shrimp (5)",
                 "price": 6.95
             },
             {
                 "num": "A15",
-                "name": "Fried Scallops (12 pieces)",
+                "name": "Fried Scallops (12)",
                 "price": 6.25
             },
             {
                 "num": "A18",
-                "name": "Steamed or Fried Pork Dumplings (8 pieces)",
+                "name": "Steamed or Fried Pork Dumplings (8)",
                 "price": 6.75
             },
             {
                 "num": "A19",
-                "name": "Steamed or Fried Vegetable Dumplings (8 pieces)",
+                "name": "Steamed or Fried Vegetable Dumplings (8)",
                 "price": 6.75
             },
             {
@@ -1006,10 +1006,6 @@
                 "num": "W5",
                 "name": "Fried Jumbo Shrimp",
                 "price": 10.65
-            },
-            {
-                "num": "W6",
-                "name": "Chicken on Stick"
             }
         ]
     },
@@ -1146,7 +1142,7 @@
             {
                 "num": "S2",
                 "name": "Four Season",
-                "description": "Shrimp, Beef, Roast Pork with Mixed Vegetables in Brown Sauce"
+                "description": "Chicken, Shrimp, Beef, Roast Pork with Mixed Vegetables in Brown Sauce"
             },
             {
                 "num": "S3",
@@ -1168,7 +1164,7 @@
             },
             {
                 "num": "S7",
-                "name": "General Tso's Chicken",
+                "name": "General Tso's Shrimp",
                 "spice" : "Yes"
             },
             {
@@ -1230,7 +1226,7 @@
             {
                 "num": "S19",
                 "name": "Butterfly Shrimp with Bacon",
-                "description": "Shrimp and Bacon Pan Fried with Egg on top of Mixed Vegetables in Brown Sauce, Finished with Chopped Peanuts"
+                "description": "Shrimp and Bacon Pan Fried with Egg on top of Mixed Vegetables in Brown Sauce, Topped with Crush Peanuts"
             },
             {
                 "num": "S20",
@@ -1270,17 +1266,17 @@
             {
                 "num": "P4",
                 "name": "Shrimp with Broccoli", 
-                "price": 51.80
+                "price": 51
             },
             {
                 "num": "P5",
                 "name": "Shrimp with Mixed Vegetables", 
-                "price": 51.80
+                "price": 51
             },
             {
                 "num": "P6",
                 "name": "General Tso's Chicken", 
-                "price": 63.80
+                "price": 63
             },
             {
                 "num": "P7",
@@ -1360,7 +1356,7 @@
             {
                 "num": "P22",
                 "name": "Sesame Chicken",
-                "price": 63.80
+                "price": 63
             }
             
 

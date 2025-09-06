@@ -45,6 +45,15 @@ document.addEventListener("DOMContentLoaded", () => {
             largePrice.textContent = large ? `$${large.toFixed(2)}` : "";
             dishDiv.appendChild(largePrice);
 
+            //adding descriptions
+            if (dish.description !== undefined) {
+              const descrip = document.createElement("span");
+              descrip.classList.add("description")
+              descrip.textContent = dish.description;
+
+              dishDiv.appendChild(descrip);
+            }
+
             menuDiv.appendChild(dishDiv);
           });
         });
@@ -278,8 +287,7 @@ document.addEventListener("DOMContentLoaded", () => {
           }
         });
       }
-      else if (category == "Catering")
-      {
+      else if (category == "Catering") {
         const lunch = data.filter(item => item.cat === "Catering");
         lunch.forEach(item => {
           const heading = document.createElement("h2");
