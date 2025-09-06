@@ -140,10 +140,10 @@ img.logo {
 
 .item-name {
     font-weight: bold;
-    white-space: nowrap;      
-    overflow: hidden;         
-    text-overflow: ellipsis;   
-    font-size: 1em;          
+    white-space: nowrap;    
+    overflow: hidden;          
+    text-overflow: ellipsis;  
+    font-size: 1em;            
 }
 
 .price {
@@ -231,18 +231,25 @@ img.logo {
 
 @media (max-width: 600px) {
   .menu-item {
-    grid-template-columns: 1fr auto; 
-  }
-
-  .price.small,
-  .price.large {
-    display: inline-block;
-    margin-left: 8px;
+    display: flex;              
+    justify-content: space-between;
+    align-items: center;
   }
 
   .item-name {
+    flex: 1;
+    margin-right: 10px;
     white-space: nowrap;
     overflow: hidden;
-    text-overflow: ellipsis; 
+    text-overflow: ellipsis;
+  }
+
+  .price {
+    text-align: right;
+    white-space: nowrap;
+  }
+
+  .price.small {
+    margin-right: 8px;
   }
 }
